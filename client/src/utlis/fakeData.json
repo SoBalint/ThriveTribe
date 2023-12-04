@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Teszt hír 1",
+        "image": "https://picsum.photos/seed/1/1144/720",
+        "lead": "safasfdasfsafasf",
+        "description": "",
+        "hasComment": true,
+        "connected":  [
+
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Teszt hír 2",
+        "image": "https://picsum.photos/seed/2/1144/720",
+        "lead": "fsdgsfdgsddsasfsdggsx",
+        "description": "",
+        "hasComment": true,
+        "connected":  [
+
+        ]
+    }
+]

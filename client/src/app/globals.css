@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Robot', sans-serif;
+    background-color: #F5F5F1;
+    margin-top: 0;
+    padding: 30px 50px 80px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+img {
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-icon{
+    max-width: 120px;
+}
+
+.nav{
+    
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.link a{
+    position:   relative;
+    padding-bottom: 0.5rem;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #617E71;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 85%;
+}
