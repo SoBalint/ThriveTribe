@@ -27,7 +27,7 @@ export default function Home() {
                   <li className="link"><a href="#">Üzenőfal</a></li>
               </ul>
           </ul>
-            <button>alma</button>
+
           <button id="userIcon">
               <i className='bx bx-user'></i>
           </button>
