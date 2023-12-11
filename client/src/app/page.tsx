@@ -62,6 +62,7 @@ export default function Home() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,
                     lectus dictum fermentum rhoncus, lacus nulla egestas neque,
                 </p>
+                tehén
             </div>
             <div className="mainArt" id="mainArt">
                 <div className="iconArticle" id="iconArticle"><i className='bx bx-info-square'></i></div>
