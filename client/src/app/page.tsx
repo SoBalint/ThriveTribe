@@ -1,6 +1,8 @@
+
 import NewsCard from '@/components/news/NewsCard'
 import { INews } from '@/interfaces/news'
 import { Row } from 'react-bootstrap'
+import Link from "next/link";
 import { Card, Form, Container, Image, Button } from "react-bootstrap";
 
 export default function Home() {
