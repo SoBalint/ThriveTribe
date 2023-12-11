@@ -102,3 +102,16 @@ li{
     list-style: none;
 }
 
+.mainP{
+    width: 960px;
+    height: 540px;
+    float: left;
+}
+
+.mainP2{
+    width: 960px;
+    height: 540px;
+    float: right;
+}
+
+
