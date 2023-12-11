@@ -108,3 +108,59 @@ nav ul{
 li{
     list-style: none;
 }
+
+.articles{
+    padding: 110px 85px 0;
+    margin-bottom: 900px;
+}
+
+.articles h3,
+.about .right h3,
+.porfolio .header h3,
+.feedback h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.articles .articlesMain{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+.articles .articlesMain .mainArt{
+    background-color: #F5F5F1;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.articles .articlesMain .mainArt:hover{
+    border-bottom: 4px solid #617E71;
+}
+
+.articles .articlesMain .mainArt .iconArticle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.articles .articlesMain .mainArt .iconArticle i{
+    font-size: 26px;
+    color: #B18C7A;
+}
+
+.articles .articlesMain .mainArt p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1e53;
+}
