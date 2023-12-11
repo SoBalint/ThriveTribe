@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <html lang="hu">
     <head>
-
         <link rel="stylesheet" href="globals.css"></link>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
         <title>Thrive Tribe</title>
@@ -16,37 +15,34 @@ export default function Home() {
 
     <nav>
         <div className="logo">
+            <img src="/client/src/pictures/logo.jpg"/>
             <a>THRIVE TRIBE</a>
         </div>
 
-        <ul>
-            <ul className="Menulinks">
-                <li className="link"><a href="#">Étrend</a></li>
-                <li className="link"><a href="#">Edzés</a></li>
-                <li className="link"><a href="#">Edző</a></li>
-                <li className="link"><a href="#">Térkép</a></li>
-                <li className="link"><a href="#">Üzenőfal</a></li>
-            </ul>
-        </ul>
+          <ul>
+              <ul className="Menulinks">
+                  <li className="link"><a href="#">Étrend</a></li>
+                  <li className="link"><a href="#">Edzés</a></li>
+                  <li className="link"><a href="#">Edző</a></li>
+                  <li className="link"><a href="#">Térkép</a></li>
+                  <li className="link"><a href="#">Üzenőfal</a></li>
+              </ul>
+          </ul>
 
-        <button id="userIcon">
-            <i className='bx bx-user'></i>
-        </button>
-    </nav>
+          <button id="userIcon">
+              <i className='bx bx-user'></i>
+          </button>
 
+      </nav>
+      <img className="mainP"
+           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU"></img>
+      <img className="mainImagine" src="/client/src/pictures/duck-dance.gif"></img>
 
+      <hr></hr>
 
-        <img className="mainP" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU"></img>
+      <h2 className="Articles" id="Articles">Cikkek</h2>
 
-        <img className="mainP2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU"></img>
-
-
-        <img src={"client/src/pictures/kep1"} alt={"asdsada"}></img>
-
-
-        <h2 className="Articles" id="Articles">Cikkek</h2>
-
-    </body>
+      </body>
     </html>
-)
+  )
 }
