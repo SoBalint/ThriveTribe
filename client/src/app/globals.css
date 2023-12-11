@@ -59,7 +59,7 @@ nav{
 nav .logo img{
     width: 30px;
     height: 30px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 nav button{
@@ -116,7 +116,7 @@ li{
 
 .articles h3,
 .about .right h3,
-.porfolio .header h3,
+.header h3,
 .feedback h3 {
     font-size: 40px;
     margin-top: 20px;
