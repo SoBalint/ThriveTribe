@@ -15,8 +15,9 @@ export default function Home() {
 
     <nav>
         <div className="logo">
-        <a>THRIVE TRIBE</a>
-          </div>
+            <img src="logo.jpg"/>
+            <a>THRIVE TRIBE</a>
+        </div>
 
           <ul>
               <ul className="Menulinks">
@@ -31,6 +32,7 @@ export default function Home() {
           <button id="userIcon">
               <i className='bx bx-user'></i>
           </button>
+
       </nav>
       <img className="mainP"
            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU"></img>

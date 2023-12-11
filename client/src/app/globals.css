@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -12,10 +13,6 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-h2#Articles{
-    font-size: 25px;
-}
-
 a{
     text-decoration: none;
     color: #1E1E1E;
@@ -23,16 +20,46 @@ a{
     cursor: pointer;
 }
 
+a:hover{
+    color: #1E1E1E !important;
+}
+
+h5{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+}
+
 nav{
     background-color: #F5F5F1;
     position: sticky;
     top: 0;
-    padding: 0 85px;
+    padding: 0 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 130px;
+    height: 120px;
 }
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo a{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+
 
 nav button{
     color: #1E1E1E;
@@ -54,26 +81,8 @@ nav button#userIcon{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
-    padding: 5px;
-}
-
-nav.logo{
-    display: flex;
-    align-items: center;
-}
-
-nav.logo a{
-    margin-left: 8px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-
-nav ul{
-    display: flex;
-    gap: 40px;
-    text-decoration: none;
+    font-size: 25px;
+    padding: 8px;
 }
 
 .link a{
@@ -83,7 +92,6 @@ nav ul{
     text-decoration: none;
 }
 
-
 .link a:after{
     content: "";
     position: absolute;
@@ -92,13 +100,15 @@ nav ul{
     bottom: 0;
     left: 0;
     background-color: #617E71;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 
 .link a:hover ::after{
     width: 85%;
 }
-li{
-    list-style: none;
+
+nav .logo img{
+    width: 30px;
+    height: 30px;
 }
 
