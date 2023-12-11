@@ -15,7 +15,7 @@ export default function Home() {
 
     <nav>
         <div className="logo">
-            <img src="logo.jpg"/>
+            <img src="/client/src/pictures/logo.jpg"/>
             <a>THRIVE TRIBE</a>
         </div>
 
@@ -32,7 +32,7 @@ export default function Home() {
           <button id="userIcon">
               <i className='bx bx-user'></i>
           </button>
-geciláda
+
       </nav>
       <img className="mainP"
            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU"></img>

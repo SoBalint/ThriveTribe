@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
-
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -13,6 +12,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+h2#Articles{
+    font-size: 25px;
+}
+
 a{
     text-decoration: none;
     color: #1E1E1E;
@@ -20,42 +23,44 @@ a{
     cursor: pointer;
 }
 
-a:hover{
-    color: #1E1E1E !important;
+.link a{
+    position:   relative;
+    padding-bottom: 0.5rem;
+    color: #1E1E1E;
+    text-decoration: none;
 }
 
-h5{
-    font-size: 20px;
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #617E71;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 85%;
 }
 
 nav{
     background-color: #F5F5F1;
     position: sticky;
     top: 0;
-    padding: 0 65px;
+    padding: 0 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 120px;
 }
 
-nav .logo{
-    display: flex;
-    align-items: center;
+nav .logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
 }
-
-nav .logo a{
-    margin-left: 8px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-nav ul{
-    display: flex;
-    gap: 40px;
-    text-decoration: none;
-}
-
 
 nav button{
     color: #1E1E1E;
@@ -81,31 +86,23 @@ nav button#userIcon{
     padding: 8px;
 }
 
-.link a{
-    position:   relative;
-    padding-bottom: 0.5rem;
-    color: #1E1E1E;
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo a{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 40px;
     text-decoration: none;
-}
-
-.link a:after{
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #617E71;
-    transition: all 0.4s ease;
-}
-
-.link a:hover ::after{
-    width: 85%;
-}
-
-nav .logo img{
-    width: 30px;
-    height: 30px;
+    margin-left: 5px;
 }
 
 li{
