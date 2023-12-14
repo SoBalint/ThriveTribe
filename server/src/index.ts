@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 import login from './routes/login'
 
+console.log("FUT a server")
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({
