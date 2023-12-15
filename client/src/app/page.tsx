@@ -1,8 +1,9 @@
-
+'use client'
 import NewsCard from '@/components/news/NewsCard'
 import { INews } from '@/interfaces/news'
 import { Row } from 'react-bootstrap'
 import Link from "next/link";
+import Login from "../pages/login/login"
 import { Card, Form, Container, Image, Button } from "react-bootstrap";
 
 export default function Home() {
@@ -32,7 +33,9 @@ export default function Home() {
           </ul>
 
           <button id="userIcon">
-              <i className='bx bx-user'></i>
+              <Link href="/login/login">
+                      <i className='bx bx-user'></i>
+              </Link>
           </button>
 
       </nav>
