@@ -1,8 +1,17 @@
 import { Button, Card, Form, Row } from "react-bootstrap";
+import { useState, useEffect } from 'react'
+import {router} from "next/client";
+import "@/app/globals.css"
 
 export default function Login() {
+    const [isClient, setIsClient] = useState(false)
+
+    useEffect(() => {
+        setIsClient(true)
+    }, [])
+
     return(
-        <body>
+        <>
             <h1>THRIVE TRIBE</h1>
         <Card>
             <Card.Title>Belépés</Card.Title>
@@ -24,6 +33,6 @@ export default function Login() {
                 <Button>Regisztráció</Button>
             </Card.Body>
         </Card>
-        </body>
+        </>
     )
 }
