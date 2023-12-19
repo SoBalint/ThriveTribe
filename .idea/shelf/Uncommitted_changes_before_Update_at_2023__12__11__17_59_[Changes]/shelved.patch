@@ -1,0 +1,37 @@
+Index: client/src/app/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import NewsCard from '@/components/news/NewsCard'\r\nimport { INews } from '@/interfaces/news'\r\nimport { Row } from 'react-bootstrap'\r\nimport { Card, Form, Container, Image, Button } from \"react-bootstrap\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <html lang=\"hu\">\r\n    <head>\r\n        <link rel=\"stylesheet\" href=\"globals.css\"></link>\r\n        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>\r\n        <title>Thrive Tribe</title>\r\n    </head>\r\n    <body>\r\n\r\n    <nav>\r\n        <div className=\"logo\">\r\n            <img src=\"logo.jpg\"/>\r\n            <a>THRIVE TRIBE</a>\r\n        </div>\r\n\r\n          <ul>\r\n              <ul className=\"Menulinks\">\r\n                  <li className=\"link\"><a href=\"#\">Étrend</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Edzés</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Edző</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Térkép</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Üzenőfal</a></li>\r\n              </ul>\r\n          </ul>\r\n\r\n          <button id=\"userIcon\">\r\n              <i className='bx bx-user'></i>\r\n          </button>\r\ngeciláda\r\n      </nav>\r\n      <img className=\"mainP\"\r\n           src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU\"></img>\r\n      <img className=\"mainImagine\" src=\"/client/src/pictures/duck-dance.gif\"></img>\r\n\r\n      <hr></hr>\r\n\r\n      <h2 className=\"Articles\" id=\"Articles\">Cikkek</h2>\r\n\r\n      </body>\r\n    </html>\r\n  )\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/client/src/app/page.tsx b/client/src/app/page.tsx
+--- a/client/src/app/page.tsx	
++++ b/client/src/app/page.tsx	
+@@ -1,9 +1,13 @@
+ import NewsCard from '@/components/news/NewsCard'
+ import { INews } from '@/interfaces/news'
+ import { Row } from 'react-bootstrap'
++import Link from "next/link";
++import { useRouter } from "next/navigation";
+ import { Card, Form, Container, Image, Button } from "react-bootstrap";
+ 
++
+ export default function Home() {
++    const router = useRouter();
+   return (
+     <html lang="hu">
+     <head>
+@@ -28,10 +32,11 @@
+                   <li className="link"><a href="#">Üzenőfal</a></li>
+               </ul>
+           </ul>
+-
++        <Link href={"/login"}>
+           <button id="userIcon">
+               <i className='bx bx-user'></i>
+           </button>
++        </Link>
+ geciláda
+       </nav>
+       <img className="mainP"

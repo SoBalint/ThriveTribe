@@ -1,0 +1,53 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"107221c8-0100-49e3-add3-60ae9a170e6c\" name=\"Changes\" comment=\"Initial commit from Create Next App and initiate server\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Z5arONMZMfrfiWt8AYlpnRZADL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"javascript.nodejs.core.library.configured.version\": \"20.10.0\",\r\n    \"javascript.nodejs.core.library.typings.version\": \"20.10.4\",\r\n    \"last_opened_file_path\": \"C:/Program Files/nodejs/node.exe\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_interpreter_path\": \"C:/Program Files/nodejs/node\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"vcs.Git\",\r\n    \"ts.external.directory.path\": \"C:\\\\Users\\\\Szár Máté\\\\WebstormProjects\\\\szakdoga\\\\server\\\\node_modules\\\\typescript\\\\lib\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Szár Máté\\WebstormProjects\\szakdoga\\client\\src\\pictures\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"107221c8-0100-49e3-add3-60ae9a170e6c\" name=\"Changes\" comment=\"\" />\r\n      <created>1701714594505</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1701714594505</updated>\r\n      <workItem from=\"1701714595793\" duration=\"1052000\" />\r\n      <workItem from=\"1701716404404\" duration=\"324000\" />\r\n      <workItem from=\"1701716742469\" duration=\"645000\" />\r\n      <workItem from=\"1702112675902\" duration=\"10662000\" />\r\n      <workItem from=\"1702124958406\" duration=\"232000\" />\r\n      <workItem from=\"1702125200564\" duration=\"337000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701715022385</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701715022385</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit from Create Next App and initiate server\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701715402176</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701715402176</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$/client\" />\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"Initial commit from Create Next App&#10;init\" />\r\n    <MESSAGE value=\"Initial commit from Create Next App and initiate server\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Initial commit from Create Next App and initiate server\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="Initial commit from Create Next App and initiate server" />
++    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="Initial commit from Create Next App and initiate server">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -34,8 +39,9 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "javascript.nodejs.core.library.configured.version": "20.10.0",
+-    "javascript.nodejs.core.library.typings.version": "20.10.4",
++    "git-widget-placeholder": "master",
++    "javascript.nodejs.core.library.configured.version": "18.18.1",
++    "javascript.nodejs.core.library.typings.version": "18.18.1",
+     "last_opened_file_path": "C:/Program Files/nodejs/node.exe",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -44,7 +50,7 @@
+     "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
+     "nodejs_package_manager_path": "npm",
+     "settings.editor.selected.configurable": "vcs.Git",
+-    "ts.external.directory.path": "C:\\Users\\Szár Máté\\WebstormProjects\\szakdoga\\server\\node_modules\\typescript\\lib",
++    "ts.external.directory.path": "C:\\laragon\\www\\szakdoga\\client\\node_modules\\typescript\\lib",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -67,6 +73,7 @@
+       <workItem from="1702112675902" duration="10662000" />
+       <workItem from="1702124958406" duration="232000" />
+       <workItem from="1702125200564" duration="337000" />
++      <workItem from="1702308080521" duration="2827000" />
+     </task>
+     <task id="LOCAL-00001" summary="init">
+       <option name="closed" value="true" />

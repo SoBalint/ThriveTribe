@@ -1,0 +1,125 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"107221c8-0100-49e3-add3-60ae9a170e6c\" name=\"Changes\" comment=\"jo\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/client/src/app/page.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/client/src/app/page.tsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/client/src/pages/login/login.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/client/src/pages/login/login.tsx\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PackageJsonUpdateNotifier\">\r\n    <dismissed value=\"$PROJECT_DIR$/server/package.json\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Z5arONMZMfrfiWt8AYlpnRZADL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.18.1&quot;,\r\n    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.18.1&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/nodejs/node.exe&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,\r\n    &quot;ts.external.directory.path&quot;: &quot;C:\\\\laragon\\\\www\\\\szakdoga\\\\server\\\\node_modules\\\\typescript\\\\lib&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\laragon\\www\\szakdoga\\client\\src\\app\" />\r\n      <recent name=\"C:\\Users\\Szár Máté\\WebstormProjects\\szakdoga\\client\\src\\pictures\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"107221c8-0100-49e3-add3-60ae9a170e6c\" name=\"Changes\" comment=\"\" />\r\n      <created>1701714594505</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1701714594505</updated>\r\n      <workItem from=\"1701714595793\" duration=\"1052000\" />\r\n      <workItem from=\"1701716404404\" duration=\"324000\" />\r\n      <workItem from=\"1701716742469\" duration=\"645000\" />\r\n      <workItem from=\"1702112675902\" duration=\"10662000\" />\r\n      <workItem from=\"1702124958406\" duration=\"232000\" />\r\n      <workItem from=\"1702125200564\" duration=\"337000\" />\r\n      <workItem from=\"1702562269724\" duration=\"37000\" />\r\n      <workItem from=\"1702562436133\" duration=\"113000\" />\r\n      <workItem from=\"1702649156462\" duration=\"1823000\" />\r\n      <workItem from=\"1702676378213\" duration=\"2219000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701715022385</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701715022385</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit from Create Next App and initiate server\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1701715402176</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1701715402176</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Initial commit from Create Next App and initiate server\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702311992400</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702311992400</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Initial commit from Create Next App and initiate server\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702315987528</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702315987528</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"jo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702562293682</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702562293682</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"jo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702562537316</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702562537316</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$/client\" />\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"Initial commit from Create Next App&#10;init\" />\r\n    <MESSAGE value=\"Initial commit from Create Next App and initiate server\" />\r\n    <MESSAGE value=\"jo\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"jo\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -7,7 +7,10 @@
+     <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="jo">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/client/src/pages/login/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/login.tsx" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/src/pictures/cica.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/cica.jpeg" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/src/pictures/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/user.jpg" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/src/pictures/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/user.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/client/src/pictures/user2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/user2.png" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,28 +39,29 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.18.1&quot;,
+-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.18.1&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/nodejs/node.exe&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+-    &quot;ts.external.directory.path&quot;: &quot;C:\\laragon\\www\\szakdoga\\server\\node_modules\\typescript\\lib&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "git-widget-placeholder": "master",
++    "javascript.nodejs.core.library.configured.version": "18.18.1",
++    "javascript.nodejs.core.library.typings.version": "18.18.1",
++    "last_opened_file_path": "C:/dockerteszt1",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "vcs.Git",
++    "ts.external.directory.path": "C:\\laragon\\www\\szakdoga\\server\\node_modules\\typescript\\lib",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\laragon\www\szakdoga\client\public" />
+       <recent name="C:\laragon\www\szakdoga\client\src\app" />
+       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
+     </key>
+@@ -79,7 +83,9 @@
+       <workItem from="1702562269724" duration="37000" />
+       <workItem from="1702562436133" duration="113000" />
+       <workItem from="1702649156462" duration="1823000" />
+-      <workItem from="1702676378213" duration="2219000" />
++      <workItem from="1702676378213" duration="3118000" />
++      <workItem from="1702818281284" duration="13000" />
++      <workItem from="1702972471084" duration="13000" />
+     </task>
+     <task id="LOCAL-00001" summary="init">
+       <option name="closed" value="true" />
+@@ -129,7 +135,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1702562537316</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="jo">
++      <option name="closed" value="true" />
++      <created>1702678860835</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1702678860835</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: client/src/app/page.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>'use client'\r\nimport NewsCard from '@/components/news/NewsCard'\r\nimport { INews } from '@/interfaces/news'\r\nimport { Row } from 'react-bootstrap'\r\nimport Link from \"next/link\";\r\nimport Login from \"../pages/login/login\"\r\nimport { Card, Form, Container, Image, Button } from \"react-bootstrap\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <html lang=\"hu\">\r\n    <head>\r\n        <link rel=\"stylesheet\" href=\"globals.css\"></link>\r\n        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>\r\n        <title>Thrive Tribe</title>\r\n    </head>\r\n    <body>\r\n\r\n    <nav>\r\n        <div className=\"logo\">\r\n            <img src=\"/client/src/pictures/logo.jpg\"/>\r\n            <a>THRIVE TRIBE</a>\r\n        </div>\r\n\r\n          <ul>\r\n              <ul className=\"Menulinks\">\r\n                  <li className=\"link\"><a href=\"#\">Étrend</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Edzés</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Edző</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Térkép</a></li>\r\n                  <li className=\"link\"><a href=\"#\">Üzenőfal</a></li>\r\n              </ul>\r\n          </ul>\r\n\r\n          <button id=\"userIcon\">\r\n              <Link href=\"/login/login\">\r\n                      <i className='bx bx-user'></i>\r\n              </Link>\r\n          </button>\r\n\r\n      </nav>\r\n      <img className=\"mainP\"\r\n           src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU\"></img>\r\n      <img className=\"mainImagine\" src=\"/client/src/pictures/duck-dance.gif\"></img>\r\n\r\n      <hr></hr>\r\n\r\n\r\n\r\n    <div className=\"articles\" id=\"articles\">\r\n        <h5>Cikkek</h5>\r\n        <h3>First Articles</h3>\r\n        <div className=\"articlesMain\" id=\"articlesMain\">\r\n            <div className=\"mainArt\" id=\"mainArt\">\r\n                <div className=\"iconArticle\" id=\"iconArticle\"><i className='bx bx-dumbbell'></i></div>\r\n                <h4>Workouts</h4>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,\r\n                </p>\r\n            </div>\r\n            <div className=\"mainArt\" id=\"mainArt\">\r\n                <div className=\"iconArticle\" id=\"iconArticle\"><i className='bx bx-bowl-hot'></i></div>\r\n                <h4>About Eating</h4>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,\r\n                    lectus dictum fermentum rhoncus, lacus nulla egestas neque,\r\n                </p>\r\n                tehén\r\n            </div>\r\n            <div className=\"mainArt\" id=\"mainArt\">\r\n                <div className=\"iconArticle\" id=\"iconArticle\"><i className='bx bx-info-square'></i></div>\r\n                <h4>Important Thing</h4>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,\r\n                    lectus dictum fermentum rhoncus, lacus nulla egestas neque,\r\n                </p>\r\n            </div>\r\n            <div className=\"mainArt\" id=\"mainArt\">\r\n                <div className=\"iconArticle\" id=\"iconArticle\"><i className='bx bx-bell'></i></div>\r\n            <h4>Santa Claus is HERE</h4>\r\n                <p>\r\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,\r\n                    lectus dictum fermentum rhoncus, lacus nulla egestas neque,\r\n                </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    </body>\r\n    </html>\r\n  )\r\n}
+===================================================================
+diff --git a/client/src/app/page.tsx b/client/src/app/page.tsx
+--- a/client/src/app/page.tsx	
++++ b/client/src/app/page.tsx	
+@@ -18,7 +18,7 @@
+ 
+     <nav>
+         <div className="logo">
+-            <img src="/client/src/pictures/logo.jpg"/>
++            <img src="/pictures/user2.png"/>
+             <a>THRIVE TRIBE</a>
+         </div>
+ 
+@@ -41,7 +41,7 @@
+       </nav>
+       <img className="mainP"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU"></img>
+-      <img className="mainImagine" src="/client/src/pictures/duck-dance.gif"></img>
++      <img className="mainImagine" src="/client/public/pictures/duck-dance.gif"></img>
+ 
+       <hr></hr>
+ 

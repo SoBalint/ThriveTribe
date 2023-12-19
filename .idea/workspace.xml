@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="adatbazis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="jo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pictures/cica.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/cica.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pictures/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/user.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pictures/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pictures/user2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/pictures/user2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="false" />
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +60,7 @@
     "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\Penge\\WebstormProjects\\szakdoga\\client\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\laragon\\www\\szakdoga\\server\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
