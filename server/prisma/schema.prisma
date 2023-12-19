@@ -22,7 +22,9 @@ model Users {
   Age Int
   Location_Id Int
   FavouriteFood_Id Int
+  Gym_Id Int?
 
+  gym Gym? @relation(fields: [Gym_Id], references: [id])
 
   @@map("users")
 }
@@ -59,23 +61,16 @@ model CoachExperince {
   @@map("coach_experience")
 }
 
-model PeopleLocation {
-  id Int @id @default(autoincrement())
-  User_Id Int
-  Gym_Id Int
-  Location Int
-
-  @@map("people_location")
-}
-
-model GymLocation {
+model Gym {
   id Int @id @default(autoincrement())
   Name String @db.VarChar(255)
-  Location Int
+  Lat Float
+  Lng Float
   Open_CLose Boolean
 
+  users Users[]
 
-  @@map("gym_location")
+  @@map("gyms")
 }
 
  //model Messages {
