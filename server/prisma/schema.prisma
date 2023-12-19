@@ -1,0 +1,106 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Users {
+  id Int @id @default(autoincrement())
+  UserName String @db.VarChar(20)
+  FirstName String @db.VarChar(50)
+  LastName String @db.VarChar(50)
+  Password String @db.VarChar(255)
+  Email String @db.VarChar(100)
+  Height Int
+  Weight Int
+  Age Int
+  Location_Id Int
+  FavouriteFood_Id Int
+
+
+  @@map("users")
+}
+
+model Coach {
+  id Int @id @default(autoincrement())
+  UserName String @db.VarChar(20)
+  FirstName String @db.VarChar(50)
+  LastName String @db.VarChar(50)
+  Password String @db.VarChar(255)
+  Email String @db.VarChar(100)
+  Age Int
+  Location_Id Int
+  Experience_Id Int
+
+  @@map("coach")
+}
+
+model Admin {
+  id Int @id @default(autoincrement())
+  UserName String @db.VarChar(20)
+  Password String @db.VarChar(255)
+
+  @@map("admin")
+}
+
+model CoachExperince {
+  id Int @id @default(autoincrement())
+  Experience String @db.VarChar(255)
+  Skills String @db.VarChar(255)
+  Studies String @db.VarChar(255)
+
+
+  @@map("coach_experience")
+}
+
+model PeopleLocation {
+  id Int @id @default(autoincrement())
+  User_Id Int
+  Gym_Id Int
+  Location Int
+
+  @@map("people_location")
+}
+
+model GymLocation {
+  id Int @id @default(autoincrement())
+  Name String @db.VarChar(255)
+  Location Int
+  Open_CLose Boolean
+
+
+  @@map("gym_location")
+}
+
+ //model Messages {
+  //id Int @id @default(autoincrement())
+  //Time DateTime @db.DateTime(0)
+  //Message Stirng @db.VarChar(255)
+
+//@@map("messages")
+//}
+
+model GroupFood {
+  id Int @id @default(autoincrement())
+  Food_Id Int
+  Name String @db.VarChar(255)
+
+
+
+  @@map("group_food")
+}
+
+model Food {
+  id Int @id @default(autoincrement())
+  GroupFood_Id Int
+
+  @@map("food")
+}
+
+
