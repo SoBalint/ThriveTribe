@@ -9,7 +9,7 @@ function RootLayoutComponent({children}: {
         <Container>
             <nav>
                 <div className="logo">
-                    <img src="/pictures/user2.png" width={50}/>
+                    <img src="/pictures/Logo.jpeg" width={50}/>
                     <a>THRIVE TRIBE</a>
                 </div>
 
