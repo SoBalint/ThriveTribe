@@ -6,16 +6,16 @@ import React from "react";
 export default function Home() {
     return (
         <Row>
-    <div className="mainPictures1">
-        <img className="mainPictureGroup" src="/pictures/Image1.jpg"/>
-        <img className="mainPictureMovement" src="/pictures/chrisheria.jpg"/>
-    </div>
+            <div className="mainPictures1">
+                <img className="mainPictureGroup" src="/pictures/Image1.jpg"/>
+                <img className="mainPictureMovement" src="/pictures/chrisheria.jpg"/>
+            </div>
 
 
-    <div className="separatorLine"></div>
+            <div className="separatorLine"></div>
 
 
-    <Col xs={12} className="articles" id="articles">
+            <Col xs={12} className="articles" id="articles">
         <h5>Cikkek</h5>
         <div className="articlesMain" id="articlesMain">
             <div className="mainArt" id="mainArt">

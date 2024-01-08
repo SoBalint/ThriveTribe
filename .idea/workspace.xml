@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Logo-removebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/chrisheria.jpg" afterDir="false" />
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="kezdolap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +108,7 @@
       <workItem from="1704376212831" duration="7000" />
       <workItem from="1704537865557" duration="708000" />
       <workItem from="1704703832085" duration="716000" />
+      <workItem from="1704718085934" duration="9220000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -177,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704027816562</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="kezdolap">
+      <option name="closed" value="true" />
+      <created>1704718173618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704718173618</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +211,7 @@
     <MESSAGE value="Initial commit from Create Next App&#10;init" />
     <MESSAGE value="Initial commit from Create Next App and initiate server" />
     <MESSAGE value="jo" />
-    <option name="LAST_COMMIT_MESSAGE" value="jo" />
+    <MESSAGE value="kezdolap" />
+    <option name="LAST_COMMIT_MESSAGE" value="kezdolap" />
   </component>
 </project>

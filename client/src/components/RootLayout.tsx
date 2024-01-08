@@ -6,8 +6,9 @@ function RootLayoutComponent({children}: {
     children: React.ReactNode
 }) {
     return (
-        <Container>
 
+        <Container>
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
             <nav>
                 <div className="logo">
                     <img src="/pictures/Logo-removebg.png"/>
