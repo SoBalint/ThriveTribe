@@ -1,6 +1,8 @@
+'use client'
 import React from 'react';
 import {Container, Row} from "react-bootstrap";
 import Link from "next/link";
+import '../app/globals.css'
 
 function RootLayoutComponent({children}: {
     children: React.ReactNode
@@ -9,17 +11,18 @@ function RootLayoutComponent({children}: {
 
         <Container>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+            <link rel="icon" type="image/jpeg" href="/pictures/Logo-removebg.png"/>
             <nav>
                 <div className="logo">
                     <img src="/pictures/Logo-removebg.png"/>
-                    <a>THRIVE TRIBE</a>
+                    <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
                 </div>
 
                 <ul>
-                    <li className="link"><a href="#">Edzés</a></li>
-                    <li className="link"><a href="#">Edző</a></li>
-                    <li className="link"><a href="#">Étrend</a></li>
-                    <li className="link"><a href="#">Térkép</a></li>
+                    <li className="link"><a href="/workout">Edzés</a></li>
+                    <li className="link"><a href="/coach">Edző</a></li>
+                    <li className="link"><a href="/diet">Étrend</a></li>
+                    <li className="link"><a href="/map">Térkép</a></li>
                     <li className="link"><a href="#">Üzenőfal</a></li>
                 </ul>
 
@@ -29,7 +32,6 @@ function RootLayoutComponent({children}: {
                     </button>
                 </Link>
             </nav>
-
 
             {children}
 
@@ -41,7 +43,7 @@ function RootLayoutComponent({children}: {
                     </div>
 
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Future</a></li>

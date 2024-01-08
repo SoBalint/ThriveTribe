@@ -41,6 +41,7 @@ footer .logo{
 
 nav .logo a,
 footer .logo a{
+    color: #1E1E1E;
     margin-left: 8px;
     font-weight: bold;
     font-size: 20px;
@@ -204,33 +205,38 @@ li{
     color: #1c1e53;
 }
 
-.test{
+.testLogin,
+.testRegistration{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.containerLogin{
+.containerLogin,
+.containerRegistration{
     width: 446px;
     padding: 40px 32px;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
 }
 
-.containerLogin h1{
+.containerLogin h1
+.containerRegistration h1{
     font-size: 1.6rem;
 }
 
-.containerLogin .divider{
+.containerLogin .divider,
+.containerRegistration .divider{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.containerLogin .divider .line{
+.containerLogin .divider .line,
+.containerRegistration .divider .line{
     height: 1px;
     width: 100%;
     background-color: #1E1E1E;
@@ -239,7 +245,9 @@ li{
 }
 
 .containerLogin form label,
-.containerLogin form a{
+.containerLogin form a,
+.containerRegistration form label,
+.containerRegistration form a{
     color: #1E1E1E;
     font-size: 14px;
     font-weight: bold;
@@ -248,11 +256,13 @@ li{
     margin-top: 12px;
 }
 
-.containerLogin form .custom-input{
+.containerLogin form .custom-inputLogin,
+.containerRegistration form .custom-inputRegistration{
     position: relative;
 }
 
-.containerLogin form .custom-input input{
+.containerLogin form .custom-inputLogin input,
+.containerRegistration form .custom-inputRegistration input{
     color: #1E1E1E;
     font-size: 16px;
     font-weight: 500;
@@ -269,11 +279,13 @@ li{
 
 }
 
-.containerLogin form .custom-input input:focus{
+.containerLogin form .custom-inputLogin input:focus,
+.containerRegistration form .custom-inputRegistration input:focus{
     border-color: #1E1E1E;
 }
 
-.containerLogin form .custom-input i{
+.containerLogin form .custom-inputLogin i,
+.containerRegistration form .custom-inputRegistration i{
     position: absolute;
     font-size: 28px;
     right: 10px;
@@ -281,12 +293,15 @@ li{
     transition: all 0.3s ease;
 }
 
-.containerLogin form .custom-input input:focus +i{
+.containerLogin form .custom-inputLogin input:focus +i,
+.containerRegistration form .custom-inputRegistration input:focus + i{
     color: #617E71;
 }
 
 .containerLogin form .login,
-.containerLogin form .registration{
+.containerLogin form .registration,
+.containerRegistration form .login,
+.containerRegistration form .registration{
     width: 100%;
     margin-top: 30px;
     background: #1E1E1E;
@@ -303,18 +318,22 @@ li{
 }
 
 .containerLogin form .login:hover,
-.containerLogin form .registration:hover{
+.containerLogin form .registration:hover,
+.containerRegistration form .login:hover,
+.containerRegistration form .registration:hover{
     background: #617E71;
 }
 
-.containerLogin .loginLinks{
+.containerLogin .loginLinks
+.containerRegistration .loginLinks{
     display: flex;
     text-decoration: none;
     justify-content: left;
     margin-top: 10px;
 }
 
-.containerLogin .noAccount{
+.containerLogin .noAccount,
+.containerRegistration .yesAccount{
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -469,3 +488,4 @@ footer .bottom .links a{
     font-size: 12px;
     margin-left: 14px;
 }
+
