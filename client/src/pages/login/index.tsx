@@ -1,7 +1,6 @@
 import {Button, Card, Form, Row} from "react-bootstrap";
 import {useState, useEffect} from 'react'
 import {router} from "next/client";
-import "@/app/globals.css"
 import RootLayoutComponent from "@/components/RootLayout";
 
 export default function Index() {
