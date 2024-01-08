@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Logo-removebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/chrisheria.jpg" afterDir="false" />
+<<<<<<< HEAD
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="kezdolap">
+=======
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="jo">
+      <change afterPath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/map/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/workout/index.tsx" afterDir="false" />
+>>>>>>> a49906d3d699881434acc27a8ba460a6ca22f3d5
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
+=======
+>>>>>>> a49906d3d699881434acc27a8ba460a6ca22f3d5
       <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,32 +65,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Szár Máté/WebstormProjects/szakdoga/client/src/pictures&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Szár Máté\\WebstormProjects\\szakdoga\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.10.0",
+    "javascript.nodejs.core.library.typings.version": "20.10.4",
+    "last_opened_file_path": "C:/laragon/www/szakdoga/client/src/pages/map",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\laragon\\www\\szakdoga\\server\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
+      <recent name="C:\laragon\www\szakdoga\client\src\pages\map" />
+      <recent name="C:\laragon\www\szakdoga\client\src\pages\diet" />
+      <recent name="C:\laragon\www\szakdoga\client\src\pages\coach" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\laragon\www\szakdoga\client\src\app" />
       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
     </key>
@@ -105,6 +115,7 @@
       <workItem from="1702649156462" duration="1823000" />
       <workItem from="1702676378213" duration="2219000" />
       <workItem from="1702738811149" duration="5139000" />
+<<<<<<< HEAD
       <workItem from="1704024314167" duration="986000" />
       <workItem from="1704025353255" duration="10159000" />
       <workItem from="1704198501827" duration="5875000" />
@@ -112,6 +123,9 @@
       <workItem from="1704376212831" duration="7000" />
       <workItem from="1704537865557" duration="708000" />
       <workItem from="1704703832085" duration="716000" />
+      <workItem from="1704718085934" duration="9220000" />
+=======
+>>>>>>> a49906d3d699881434acc27a8ba460a6ca22f3d5
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -169,6 +183,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702743879015</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00008" summary="jo">
       <option name="closed" value="true" />
       <created>1704027816562</created>
@@ -177,7 +192,18 @@
       <option name="project" value="LOCAL" />
       <updated>1704027816562</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="kezdolap">
+      <option name="closed" value="true" />
+      <created>1704718173618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704718173618</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+=======
+    <option name="localTasksCounter" value="8" />
+>>>>>>> a49906d3d699881434acc27a8ba460a6ca22f3d5
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +232,7 @@
     <MESSAGE value="Initial commit from Create Next App&#10;init" />
     <MESSAGE value="Initial commit from Create Next App and initiate server" />
     <MESSAGE value="jo" />
-    <option name="LAST_COMMIT_MESSAGE" value="jo" />
+    <MESSAGE value="kezdolap" />
+    <option name="LAST_COMMIT_MESSAGE" value="kezdolap" />
   </component>
 </project>

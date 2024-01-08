@@ -1,6 +1,6 @@
 import { Button, Card, Form, Row } from "react-bootstrap";
 
-export default function DataChange() {
+export default function Index() {
     return(
         <body>
             <h1>THRIVE TRIBE</h1>

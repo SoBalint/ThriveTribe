@@ -41,6 +41,7 @@ footer .logo{
 
 nav .logo a,
 footer .logo a{
+    color: #1E1E1E;
     margin-left: 8px;
     font-weight: bold;
     font-size: 20px;
@@ -101,12 +102,15 @@ nav button:hover{
 }
 
 .mainPictureMovement, .mainPictureGroup{
-    justify-items: center;
-    align-items: center;
     height: 555px;
     width: 558px;
     object-fit: cover;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline;
+    float: none;
+    line-height: 24px;
+    position: static;
 }
 
 
@@ -201,6 +205,253 @@ li{
     color: #1c1e53;
 }
 
+.testLogin,
+.testRegistration{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.containerLogin,
+.containerRegistration{
+    width: 446px;
+    padding: 40px 32px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+}
+
+.containerLogin h1
+.containerRegistration h1{
+    font-size: 1.6rem;
+}
+
+.containerLogin .divider,
+.containerRegistration .divider{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerLogin .divider .line,
+.containerRegistration .divider .line{
+    height: 1px;
+    width: 100%;
+    background-color: #1E1E1E;
+    opacity: 0.5;
+    margin: 30px 0 16px;
+}
+
+.containerLogin form label,
+.containerLogin form a,
+.containerRegistration form label,
+.containerRegistration form a{
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    display: block;
+    margin-top: 12px;
+}
+
+.containerLogin form .custom-inputLogin,
+.containerRegistration form .custom-inputRegistration{
+    position: relative;
+}
+
+.containerLogin form .custom-inputLogin input,
+.containerRegistration form .custom-inputRegistration input{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    height: 46px;
+    letter-spacing: 0.03rem;
+    border: 1px solid #1E1E1E;
+    background: transparent;
+    outline: none;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 6px;
+    transition: all 0.3s ease;
+
+}
+
+.containerLogin form .custom-inputLogin input:focus,
+.containerRegistration form .custom-inputRegistration input:focus{
+    border-color: #1E1E1E;
+}
+
+.containerLogin form .custom-inputLogin i,
+.containerRegistration form .custom-inputRegistration i{
+    position: absolute;
+    font-size: 28px;
+    right: 10px;
+    top: 14px;
+    transition: all 0.3s ease;
+}
+
+.containerLogin form .custom-inputLogin input:focus +i,
+.containerRegistration form .custom-inputRegistration input:focus + i{
+    color: #617E71;
+}
+
+.containerLogin form .login,
+.containerLogin form .registration,
+.containerRegistration form .login,
+.containerRegistration form .registration{
+    width: 100%;
+    margin-top: 30px;
+    background: #1E1E1E;
+    color: #FFFFFF;
+    border: none;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: 0.025rem;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.containerLogin form .login:hover,
+.containerLogin form .registration:hover,
+.containerRegistration form .login:hover,
+.containerRegistration form .registration:hover{
+    background: #617E71;
+}
+
+.containerLogin .loginLinks
+.containerRegistration .loginLinks{
+    display: flex;
+    text-decoration: none;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.containerLogin .noAccount,
+.containerRegistration .yesAccount{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seagreen;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    background: purple;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
 footer{
     background-color: #EFEFEF;
     padding: 85px;
@@ -237,3 +488,4 @@ footer .bottom .links a{
     font-size: 12px;
     margin-left: 14px;
 }
+
