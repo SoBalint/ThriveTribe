@@ -5,10 +5,6 @@ import {Col, Row} from "react-bootstrap";
 export default function Home() {
     return (
         <Row>
-            <img className="mainP"
-                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVOObEkdf2ClOza_WLMSt9DF1KKthpdQE5g&usqp=CAU" />
-            <img className="mainImagine" src="/pictures/user2.png" />
-
             <hr></hr>
 
 
@@ -32,7 +28,7 @@ export default function Home() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,
                             lectus dictum fermentum rhoncus, lacus nulla egestas neque,
                         </p>
-                        tehén
+
                     </div>
                     <div className="mainArt" id="mainArt">
                         <div className="iconArticle" id="iconArticle"><i className='bx bx-info-square'></i></div>
