@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import Link from "next/link";
 
 function RootLayoutComponent({children}: {
@@ -7,31 +7,65 @@ function RootLayoutComponent({children}: {
 }) {
     return (
         <Container>
+
             <nav>
                 <div className="logo">
-                    <img src="/pictures/Logo.jpeg" width={50}/>
+                    <img src="/pictures/Logo-removebg.png"/>
                     <a>THRIVE TRIBE</a>
                 </div>
 
                 <ul>
-                    <ul className="Menulinks">
-                        <li className="link"><a href="#">Étrend</a></li>
-                        <li className="link"><a href="#">Edzés</a></li>
-                        <li className="link"><a href="#">Edző</a></li>
-                        <li className="link"><a href="#">Térkép</a></li>
-                        <li className="link"><a href="#">Üzenőfal</a></li>
-                    </ul>
+                    <li className="link"><a href="#">Edzés</a></li>
+                    <li className="link"><a href="#">Edző</a></li>
+                    <li className="link"><a href="#">Étrend</a></li>
+                    <li className="link"><a href="#">Térkép</a></li>
+                    <li className="link"><a href="#">Üzenőfal</a></li>
                 </ul>
 
-                <button id="userIcon">
-                    <Link href="/login">
+                <Link href="/login">
+                    <button>
                         <i className='bx bx-user'></i>
-                    </Link>
-                </button>
-
+                    </button>
+                </Link>
             </nav>
+
+
             {children}
+
+            <footer className="footer">
+                <div className="top">
+                    <div className="logo">
+                        <img src="/pictures/Logo-removebg.png"/>
+                        THRIVE TRIBE
+                    </div>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Future</a></li>
+                    </ul>
+                    <div className="social-links">
+                        <a href="#"><i className='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i className='bx bxl-gmail'></i></a>
+                        <a href="#"><i className='bx bxl-twitter'></i></a>
+                        <a href="#"><i className='bx bxl-linkedin-square'></i></a>
+                    </div>
+                </div>
+                <div className="separator"></div>
+                <div className="bottom">
+                    <p>
+                        Made with Intentions by Thrive Tribe
+                    </p>
+                    <div className="links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </footer>
         </Container>
+
     );
 }
 

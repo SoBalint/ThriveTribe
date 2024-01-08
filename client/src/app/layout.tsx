@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './globals.css'
 import RootLayoutComponent from "@/components/RootLayout";
 import React from "react";
+import Link from "next/link";
+
 
 const inter = Inter({subsets: ['latin']})
 
@@ -17,17 +19,28 @@ export default function RootLayout({
                                    }: {
     children: React.ReactNode
 }) {
+    const linkStyle = {
+        color: "#1E1E1E"
+    };
     return (
         <html lang="en">
-            <head>
-                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
-                <link rel="icon" type="image/jpeg" href="/pictures/Logo.jpeg"/>
-            </head>
-            <body>
-            <RootLayoutComponent>
-                {children}
-            </RootLayoutComponent>
-            </body>
+        <head>
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+            <link rel="stylesheet" href="https://unpkg.com/@vectopus/atlas-icons/style.css"/>
+            <link rel="icon" type="image/jpeg" href="/pictures/Logo-removebg.png"/>
+        </head>
+        <body>
+
+
+
+        <RootLayoutComponent>
+            {children}
+        </RootLayoutComponent>
+
+
+
+
+        </body>
         </html>
     )
 }
