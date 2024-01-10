@@ -11,7 +11,6 @@ function RootLayoutComponent({children}: {
 
         <Container>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
-            <link rel="icon" type="image/jpeg" href="/pictures/Logo-removebg.png"/>
             <nav>
                 <div className="logo">
                     <img src="/pictures/Logo-removebg.png"/>
