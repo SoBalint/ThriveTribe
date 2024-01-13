@@ -223,7 +223,7 @@ li{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
 }
 
-.containerLogin h1
+.containerLogin h1,
 .containerRegistration h1{
     font-size: 1.6rem;
 }
@@ -324,7 +324,7 @@ li{
     background: #617E71;
 }
 
-.containerLogin .loginLinks
+.containerLogin .loginLinks,
 .containerRegistration .loginLinks{
     display: flex;
     text-decoration: none;

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import {Container, Row} from "react-bootstrap";
+import {Container, Row, Image} from "react-bootstrap";
 import Link from "next/link";
 import '../app/globals.css'
 
@@ -14,7 +14,7 @@ function RootLayoutComponent({children}: {
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
             <nav>
                 <div className="logo">
-                    <img src="/pictures/Logo-removebg.png"/>
+                    <Image src="/pictures/Logo-removebg.png" alt="Logo"/>
                     <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
                 </div>
 
@@ -48,7 +48,7 @@ function RootLayoutComponent({children}: {
             <footer className="footer">
                 <div className="top">
                     <div className="logo">
-                        <img src="/pictures/Logo-removebg.png"/>
+                        <Image src="/pictures/Logo-removebg.png" alt={"Logo"}/>
                         THRIVE TRIBE
                     </div>
 
