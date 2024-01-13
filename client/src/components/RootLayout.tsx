@@ -19,16 +19,16 @@ function RootLayoutComponent({children}: {
                 </div>
 
                 <ul>
-                    <Link href="/coach">
+                    <Link className="link" href="/coach">
                         Edző
                     </Link>
-                    <Link href="/diet">
+                    <Link className="link" href="/diet">
                         Étrend
                     </Link>
-                    <Link href="/map">
+                    <Link className="link" href="/map">
                         Térkép
                     </Link>
-                    <Link href="#">
+                    <Link className="link" href="#">
                         Üzenőfal
                     </Link>
                 </ul>

@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="terkep (nincskesz)">
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/interfaces/admin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/interfaces/coach.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/interfaces/coachE.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/interfaces/food.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/interfaces/groupfood.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/interfaces/gym.ts" afterDir="false" />
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="terkep kész + a header bekerült">
+      <change afterPath="$PROJECT_DIR$/marker.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/map.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/interfaces/news.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/interfaces/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/interfaces/users.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/map/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/map/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/server/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +108,7 @@
       <workItem from="1704899111374" duration="3327000" />
       <workItem from="1704902549427" duration="8000" />
       <workItem from="1705042593569" duration="769000" />
-      <workItem from="1705150022878" duration="7942000" />
+      <workItem from="1705150022878" duration="9777000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -185,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704899159840</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="terkep kész + a header bekerült">
+      <option name="closed" value="true" />
+      <created>1705158775033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705158775033</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +217,7 @@
     <MESSAGE value="Initial commit from Create Next App and initiate server" />
     <MESSAGE value="jo" />
     <MESSAGE value="terkep (nincskesz)" />
-    <option name="LAST_COMMIT_MESSAGE" value="terkep (nincskesz)" />
+    <MESSAGE value="terkep kész + a header bekerült" />
+    <option name="LAST_COMMIT_MESSAGE" value="terkep kész + a header bekerült" />
   </component>
 </project>
