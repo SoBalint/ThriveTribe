@@ -79,14 +79,14 @@ nav button:hover{
     color: #FFFFFF;
 }
 
-.link a{
+.link {
     position: relative;
     padding-bottom: 0.75rem;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.link a::after{
+.link::after{
     content: "";
     position: absolute;
     height: 2px;
@@ -97,7 +97,7 @@ nav button:hover{
     transition: all 0.4s ease;
 }
 
-.link a:hover::after{
+.link:hover::after{
     width: 75%;
 }
 
@@ -121,7 +121,7 @@ nav button:hover{
     margin-bottom: 100px;
 }
 
-.link a{
+.link {
     position:   relative;
     padding-bottom: 0.5rem;
     color: #1E1E1E;
@@ -129,7 +129,7 @@ nav button:hover{
 }
 
 
-.link a:after{
+.link:after{
     content: "";
     position: absolute;
     height: 2px;
@@ -140,7 +140,7 @@ nav button:hover{
     transition: all 0.3s ease;
 }
 
-.link a:hover ::after{
+.link:hover ::after{
     width: 85%;
 }
 
@@ -491,3 +491,15 @@ footer .bottom .links a{
 
 #map {
     position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+
+.leaflet-container {
+    height: 60vh;
+    width: 100vh;
+}
+
+.kozepreMap {
+    height: 60vh;
+    width: 100vh;
+    margin: 0 auto;
+    position: relative;
+}

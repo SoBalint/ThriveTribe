@@ -9,7 +9,8 @@ function RootLayoutComponent({children}: {
 }) {
     return (
 
-        <Container>
+<>
+            <header>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
             <nav>
                 <div className="logo">
@@ -18,11 +19,18 @@ function RootLayoutComponent({children}: {
                 </div>
 
                 <ul>
-                    <li className="link"><a href="/workout">Edzés</a></li>
-                    <li className="link"><a href="/coach">Edző</a></li>
-                    <li className="link"><a href="/diet">Étrend</a></li>
-                    <li className="link"><a href="/map">Térkép</a></li>
-                    <li className="link"><a href="#">Üzenőfal</a></li>
+                    <Link className="link" href="/coach">
+                        Edző
+                    </Link>
+                    <Link className="link" href="/diet">
+                        Étrend
+                    </Link>
+                    <Link className="link" href="/map">
+                        Térkép
+                    </Link>
+                    <Link className="link" href="#">
+                        Üzenőfal
+                    </Link>
                 </ul>
 
                 <Link href="/login">
@@ -31,8 +39,11 @@ function RootLayoutComponent({children}: {
                     </button>
                 </Link>
             </nav>
+            </header>
 
-            {children}
+            <Container>
+                {children}
+            </Container>
 
             <footer className="footer">
                 <div className="top">
@@ -66,8 +77,7 @@ function RootLayoutComponent({children}: {
                     </div>
                 </div>
             </footer>
-        </Container>
-
+</>
     );
 }
 
