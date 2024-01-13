@@ -491,3 +491,15 @@ footer .bottom .links a{
 
 #map {
     position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+
+.leaflet-container {
+    height: 60vh;
+    width: 100vh;
+}
+
+.kozepreMap {
+    height: 60vh;
+    width: 100vh;
+    margin: 0 auto;
+    position: relative;
+}

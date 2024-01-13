@@ -17,11 +17,11 @@ model Users {
   LastName String @db.VarChar(50)
   Password String @db.VarChar(255)
   Email String @db.VarChar(100)
-  Height Int
-  Weight Int
-  Age Int
-  Location_Id Int
-  FavouriteFood_Id Int
+  Height Int?
+  Weight Int?
+  Age Int?
+  Location_Id Int?
+  FavouriteFood_Id Int?
   Gym_Id Int?
 
   gym Gym? @relation(fields: [Gym_Id], references: [id])
