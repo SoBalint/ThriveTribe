@@ -1,14 +1,14 @@
 'use client'
 import Link from "next/link";
-import {Container, Col, Row} from "react-bootstrap";
+import {Container, Col, Row, Image} from "react-bootstrap";
 import React from "react";
 
 export default function Home() {
     return (
         <Row>
             <div className="mainPictures1">
-                <img className="mainPictureGroup" src="/pictures/Image1.jpg"/>
-                <img className="mainPictureMovement" src="/pictures/chrisheria.jpg"/>
+                <Image className="mainPictureGroup" src="/pictures/Image1.jpg" alt={"MainKép"}/>
+                <Image className="mainPictureMovement" src="/pictures/chrisheria.jpg" alt={"MainKép"}/>
             </div>
 
 
