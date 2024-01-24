@@ -10,7 +10,9 @@ export default function Index() {
 
     return (
         <RootLayoutComponent>
-            <h1></h1>
+            <div>
+
+            </div>
         </RootLayoutComponent>
     )
 }

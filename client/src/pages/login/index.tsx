@@ -12,6 +12,7 @@ export default function Index() {
     }, [])
 
     return (
+
         <RootLayoutComponent>
             <div className="testLogin">
             <div className="containerLogin">

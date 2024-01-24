@@ -1,5 +1,7 @@
 import {useEffect, useState} from "react";
 import RootLayoutComponent from "@/components/RootLayout";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Index() {
     const [isClient, setIsClient] = useState(false)
@@ -10,7 +12,9 @@ export default function Index() {
 
     return (
         <RootLayoutComponent>
-            <h1></h1>
+        <div>
+
+        </div>
         </RootLayoutComponent>
     )
 }

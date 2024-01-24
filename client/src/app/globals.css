@@ -101,10 +101,8 @@ nav button:hover{
     width: 75%;
 }
 
-.mainPictureMovement, .mainPictureGroup{
-    height: 555px;
-    width: 558px;
-    object-fit: cover;
+.mainPageImg{
+    width: 100%;
     margin-bottom: 10px;
     box-sizing: border-box;
     display: inline;
@@ -112,7 +110,6 @@ nav button:hover{
     line-height: 24px;
     position: static;
 }
-
 
 .separatorLine{
     width: 100%;
@@ -206,7 +203,8 @@ li{
 }
 
 .testLogin,
-.testRegistration{
+.testRegistration,
+.testDatachange{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -216,7 +214,8 @@ li{
 }
 
 .containerLogin,
-.containerRegistration{
+.containerRegistration,
+.containerDatachange{
     width: 446px;
     padding: 40px 32px;
     border-radius: 8px;
@@ -224,19 +223,22 @@ li{
 }
 
 .containerLogin h1,
-.containerRegistration h1{
+.containerRegistration h1,
+.containerDatachange h1{
     font-size: 1.6rem;
 }
 
 .containerLogin .divider,
-.containerRegistration .divider{
+.containerRegistration .divider,
+.containerDatachange .divider{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
 .containerLogin .divider .line,
-.containerRegistration .divider .line{
+.containerRegistration .divider .line,
+.containerDatachange .divider .line{
     height: 1px;
     width: 100%;
     background-color: #1E1E1E;
@@ -247,7 +249,9 @@ li{
 .containerLogin form label,
 .containerLogin form a,
 .containerRegistration form label,
-.containerRegistration form a{
+.containerRegistration form a,
+.containerDatachange form label,
+.containerDatachange form a{
     color: #1E1E1E;
     font-size: 14px;
     font-weight: bold;
@@ -257,12 +261,14 @@ li{
 }
 
 .containerLogin form .custom-inputLogin,
-.containerRegistration form .custom-inputRegistration{
+.containerRegistration form .custom-inputRegistration,
+.containerDatachange form .custom-inputDatachange{
     position: relative;
 }
 
 .containerLogin form .custom-inputLogin input,
-.containerRegistration form .custom-inputRegistration input{
+.containerRegistration form .custom-inputRegistration input,
+.containerDatachange form .custom-inputDatachange input{
     color: #1E1E1E;
     font-size: 16px;
     font-weight: 500;
@@ -280,12 +286,14 @@ li{
 }
 
 .containerLogin form .custom-inputLogin input:focus,
-.containerRegistration form .custom-inputRegistration input:focus{
+.containerRegistration form .custom-inputRegistration input:focus,
+.containerDatachange form .custom-inputDatachange input:focus{
     border-color: #1E1E1E;
 }
 
 .containerLogin form .custom-inputLogin i,
-.containerRegistration form .custom-inputRegistration i{
+.containerRegistration form .custom-inputRegistration i,
+.containerDatachange form .custom-inputDatachange i{
     position: absolute;
     font-size: 28px;
     right: 10px;
@@ -294,14 +302,16 @@ li{
 }
 
 .containerLogin form .custom-inputLogin input:focus +i,
-.containerRegistration form .custom-inputRegistration input:focus + i{
+.containerRegistration form .custom-inputRegistration input:focus + i,
+.containerDatachange form .custom-inputDatachange input:focus +i{
     color: #617E71;
 }
 
 .containerLogin form .login,
 .containerLogin form .registration,
 .containerRegistration form .login,
-.containerRegistration form .registration{
+.containerRegistration form .registration,
+.containerDatachange form .datachangeSave{
     width: 100%;
     margin-top: 30px;
     background: #1E1E1E;
@@ -320,7 +330,8 @@ li{
 .containerLogin form .login:hover,
 .containerLogin form .registration:hover,
 .containerRegistration form .login:hover,
-.containerRegistration form .registration:hover{
+.containerRegistration form .registration:hover,
+.containerDatachange form .datachangeSave:hover{
     background: #617E71;
 }
 
@@ -451,6 +462,29 @@ li{
     text-decoration: underline;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-size: 60px;
+    text-align: center;
+}
 
 footer{
     background-color: #EFEFEF;
@@ -490,7 +524,8 @@ footer .bottom .links a{
 }
 
 #map {
-    position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+    position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+}
 
 .leaflet-container {
     height: 60vh;
