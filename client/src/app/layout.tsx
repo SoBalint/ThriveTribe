@@ -26,7 +26,6 @@ export default function RootLayout({
         <html lang="en">
         <head>
 
-            <link rel="stylesheet" href="https://unpkg.com/@vectopus/atlas-icons/style.css"/>
         </head>
         <body>
 

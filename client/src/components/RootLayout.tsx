@@ -9,46 +9,48 @@ function RootLayoutComponent({children}: {
 }) {
     return (
 
-<>
+        <>
             <header>
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
-            <nav>
-                <div className="logo">
-                    <Image src="/pictures/Logo-removebg.png" alt="Logo"/>
-                    <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
-                </div>
+                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+                <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
+                <title>Thrive Tribe</title>
+                <nav>
+                    <div className="logo">
+                        <Image alt="Logo" src="/pictures/Logo.png"></Image>
+                        <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
+                    </div>
 
-                <ul>
-                    <Link className="link" href="/coach">
-                        Edző
-                    </Link>
-                    <Link className="link" href="/diet">
-                        Étrend
-                    </Link>
-                    <Link className="link" href="/map">
-                        Térkép
-                    </Link>
-                    <Link className="link" href="#">
-                        Üzenőfal
-                    </Link>
-                </ul>
+                    <ul>
+                        <Link className="link" href="/coach">
+                            Edző
+                        </Link>
+                        <Link className="link" href="/diet">
+                            Étrend
+                        </Link>
+                        <Link className="link" href="/map">
+                            Térkép
+                        </Link>
+                        <Link className="link" href="#">
+                            Üzenőfal
+                        </Link>
+                    </ul>
 
-                <Link href="/login">
-                    <button>
-                        <i className='bx bx-user'></i>
-                    </button>
-                </Link>
-            </nav>
+                    <Link href="/login">
+                        <button>
+                            <i className='bx bx-user'></i>
+                        </button>
+                    </Link>
+                </nav>
             </header>
 
-            <Container>
-                {children}
-            </Container>
+
+            {children}
+
 
             <footer className="footer">
                 <div className="top">
                     <div className="logo">
-                        <Image src="/pictures/Logo-removebg.png" alt={"Logo"}/>
+                        <Image alt="Logo" src="/pictures/Logo.png"></Image>
                         THRIVE TRIBE
                     </div>
 
@@ -77,7 +79,7 @@ function RootLayoutComponent({children}: {
                     </div>
                 </div>
             </footer>
-</>
+        </>
     );
 }
 

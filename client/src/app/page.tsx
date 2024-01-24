@@ -12,6 +12,7 @@ export default function Home() {
                 <div className="overlay-text">Ép test ép lélek</div>
                 <Image className="mainPageImg" src="/pictures/chrisheria.jpg" alt={"MainKép"}/>
             </div>
+
             <div className="separatorLine"></div>
     <Container>
 
