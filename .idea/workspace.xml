@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="terkep kész + a header bekerült">
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/mainimage.jpg" afterDir="false" />
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="header szerkesztett">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/pictures/Logo-removebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/pictures/Logo.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/datachange/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/datachange/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/workout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/workout/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +57,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.8&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.18.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.18.1&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/szakdoga/client/src/pages/map&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -76,7 +67,7 @@
     &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Szár Máté\\WebstormProjects\\szakdoga\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\laragon\\www\\szakdoga\\server\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -87,7 +78,6 @@
       <recent name="C:\laragon\www\szakdoga\client\src\pages\coach" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\laragon\www\szakdoga\client\src\app" />
       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
     </key>
@@ -118,11 +108,7 @@
       <workItem from="1704899111374" duration="3327000" />
       <workItem from="1704902549427" duration="8000" />
       <workItem from="1705042593569" duration="769000" />
-      <workItem from="1705150022878" duration="9777000" />
-      <workItem from="1705304359005" duration="264000" />
-      <workItem from="1705342966615" duration="621000" />
-      <workItem from="1706079283935" duration="1918000" />
-      <workItem from="1706081398778" duration="57000" />
+      <workItem from="1705150022878" duration="10672000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -196,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705158775033</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="header szerkesztett">
+      <option name="closed" value="true" />
+      <created>1705160084918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705160084918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +226,7 @@
     <MESSAGE value="jo" />
     <MESSAGE value="terkep (nincskesz)" />
     <MESSAGE value="terkep kész + a header bekerült" />
-    <option name="LAST_COMMIT_MESSAGE" value="terkep kész + a header bekerült" />
+    <MESSAGE value="header szerkesztett" />
+    <option name="LAST_COMMIT_MESSAGE" value="header szerkesztett" />
   </component>
 </project>

@@ -12,11 +12,9 @@ function RootLayoutComponent({children}: {
 <>
             <header>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
-            <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
-                <title>Thrive Tribe</title>
-                <nav>
+            <nav>
                 <div className="logo">
-                    <Image alt="Logo" src="/pictures/Logo.png"></Image>
+                    <Image src="/pictures/Logo-removebg.png" alt="Logo"/>
                     <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
                 </div>
 
@@ -43,14 +41,14 @@ function RootLayoutComponent({children}: {
             </nav>
             </header>
 
-
+            <Container>
                 {children}
-
+            </Container>
 
             <footer className="footer">
                 <div className="top">
                     <div className="logo">
-                        <Image alt="Logo" src="/pictures/Logo.png"></Image>
+                        <Image src="/pictures/Logo-removebg.png" alt={"Logo"}/>
                         THRIVE TRIBE
                     </div>
 
