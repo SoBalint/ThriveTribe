@@ -6,12 +6,12 @@ import React from "react";
 export default function Home() {
     return (
 
-
         <Row>
             <div className="image-container">
                 <div className="overlay-text">Ép test ép lélek</div>
                 <Image className="mainPageImg" src="/pictures/chrisheria.jpg" alt={"MainKép"}/>
             </div>
+            segg
             <div className="separatorLine"></div>
     <Container>
 
