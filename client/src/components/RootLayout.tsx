@@ -3,48 +3,51 @@ import React from 'react';
 import {Container, Row, Image} from "react-bootstrap";
 import Link from "next/link";
 import '../app/globals.css'
+import Head from "next/head";
 
 function RootLayoutComponent({children}: {
     children: React.ReactNode
 }) {
     return (
 
-<>
-            <header>
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
-            <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
+        <>
+            <Head>
+                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+                <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
                 <title>Thrive Tribe</title>
+            </Head>
+            <header>
                 <nav>
-                <div className="logo">
-                    <Image alt="Logo" src="/pictures/Logo.png"></Image>
-                    <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
-                </div>
+                    <div className="logo">
+                        <Image alt="Logo" src="/pictures/Logo.png"></Image>
+                        <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
+                    </div>
 
-                <ul>
-                    <Link className="link" href="/coach">
-                        Edző
-                    </Link>
-                    <Link className="link" href="/diet">
-                        Étrend
-                    </Link>
-                    <Link className="link" href="/map">
-                        Térkép
-                    </Link>
-                    <Link className="link" href="#">
-                        Üzenőfal
-                    </Link>
-                </ul>
+                    <ul>
+                        <Link className="link" href="/coach">
+                            Edző
+                        </Link>
+                        <Link className="link" href="/diet">
+                            Étrend
+                        </Link>
+                        <Link className="link" href="/map">
+                            Térkép
+                        </Link>
+                        <Link className="link" href="#">
+                            Üzenőfal
+                        </Link>
+                    </ul>
 
-                <Link href="/login">
-                    <button>
-                        <i className='bx bx-user'></i>
-                    </button>
-                </Link>
-            </nav>
+                    <Link href="/login">
+                        <button>
+                            <i className='bx bx-user'></i>
+                        </button>
+                    </Link>
+                </nav>
             </header>
 
 
-                {children}
+            {children}
 
 
             <footer className="footer">
@@ -79,7 +82,7 @@ function RootLayoutComponent({children}: {
                     </div>
                 </div>
             </footer>
-</>
+        </>
     );
 }
 

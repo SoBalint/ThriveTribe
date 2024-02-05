@@ -24,8 +24,7 @@ model Users {
   FavouriteFood_Id Int?
   Gym_Id Int?
 
-  //gym Gym? @relation(fields: [Gym_Id], references: [id])//
-  //food Food[]
+  gym Gym? @relation(fields: [Gym_Id], references: [id])
 
   @@map("users")
 }
@@ -69,15 +68,15 @@ model Gym {
   Lng Float
   Open_CLose Boolean
 
-  //users Users[]//
+  users Users[]
 
   @@map("gyms")
 }
 
-//model Messages {
-//id Int @id @default(autoincrement())
-//Time DateTime @db.DateTime(0)
-//Message Stirng @db.VarChar(255)
+ //model Messages {
+  //id Int @id @default(autoincrement())
+  //Time DateTime @db.DateTime(0)
+  //Message Stirng @db.VarChar(255)
 
 //@@map("messages")
 //}
@@ -87,7 +86,6 @@ model GroupFood {
   Food_Id Int
   Name String @db.VarChar(255)
 
-  //food Food @relation(fields: [Food_Id], references: [GroupFood_Id])
 
 
   @@map("group_food")
@@ -97,12 +95,7 @@ model Food {
   id Int @id @default(autoincrement())
   GroupFood_Id Int
 
-  //groupfood GroupFood[]
-
-  //users2 Users @relation(fields: [id], references: [FavouriteFood_Id])
-
   @@map("food")
 }
-
 
 
