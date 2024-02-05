@@ -25,7 +25,9 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head>
-
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+            <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
+            <title>Thrive Tribe</title>
         </head>
         <body>
 

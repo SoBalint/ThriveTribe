@@ -3,6 +3,7 @@ import React from 'react';
 import {Container, Row, Image} from "react-bootstrap";
 import Link from "next/link";
 import '../app/globals.css'
+import Head from "next/head";
 
 function RootLayoutComponent({children}: {
     children: React.ReactNode
@@ -10,10 +11,12 @@ function RootLayoutComponent({children}: {
     return (
 
         <>
-            <header>
+            <Head>
                 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
                 <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
                 <title>Thrive Tribe</title>
+            </Head>
+            <header>
                 <nav>
                     <div className="logo">
                         <Image alt="Logo" src="/pictures/Logo.png"></Image>

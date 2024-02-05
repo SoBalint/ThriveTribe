@@ -17,85 +17,100 @@ model Users {
   LastName String @db.VarChar(50)
   Password String @db.VarChar(255)
   Email String @db.VarChar(100)
+  Phone String? @db.VarChar(12)
   Height Int?
   Weight Int?
   Age Int?
-  Location_Id Int?
-  FavouriteFood_Id Int?
-  Gym_Id Int?
-
-  gym Gym? @relation(fields: [Gym_Id], references: [id])
 
   @@map("users")
 }
 
-model Coach {
+model Coaches {
   id Int @id @default(autoincrement())
   UserName String @db.VarChar(20)
   FirstName String @db.VarChar(50)
   LastName String @db.VarChar(50)
   Password String @db.VarChar(255)
   Email String @db.VarChar(100)
-  Age Int
-  Location_Id Int
-  Experience_Id Int
+  Phone String? @db.VarChar(12)
+  Height Int?
+  Weight Int?
+  Age Int?
+  Work_Location_Id Int?
+  Coach_Experience_Id Int @unique
 
-  @@map("coach")
+  coachE CoachExperiences?
+
+  @@map("coaches")
 }
 
-model Admin {
+model CoachExperiences {
   id Int @id @default(autoincrement())
-  UserName String @db.VarChar(20)
-  Password String @db.VarChar(255)
+  Skill String @db.Text
+  School String? @db.Text
+  Experience String @db.Text
 
-  @@map("admin")
+  coach Coaches @relation(fields: [id], references: [Coach_Experience_Id])
+
+  @@map("coachE")
 }
 
-model CoachExperince {
+model Map {
   id Int @id @default(autoincrement())
-  Experience String @db.VarChar(255)
-  Skills String @db.VarChar(255)
-  Studies String @db.VarChar(255)
+  City String @db.VarChar(255)
+  Name String @db.VarChar(255)
+  Phone String @db.VarChar(12)
+  Open String @db.Text
+  Like Int
+  coordinates Location @relation(fields: [coordinatesId], references: [id])
+  coordinatesId Int
 
-
-  @@map("coach_experience")
+  @@map("map")
 }
 
-model Gym {
+model Location {
+  id Int @id @default(autoincrement())
+  latitude Float
+  longitude Float
+
+  maps Map[]
+
+  @@map("gym_location")
+}
+
+model Training {
   id Int @id @default(autoincrement())
   Name String @db.VarChar(255)
-  Lat Float
-  Lng Float
-  Open_CLose Boolean
+  Text String @db.Text
+  Like Int?
+  DisLike Int?
 
-  users Users[]
-
-  @@map("gyms")
+  @@map("training")
 }
 
- //model Messages {
-  //id Int @id @default(autoincrement())
-  //Time DateTime @db.DateTime(0)
-  //Message Stirng @db.VarChar(255)
+model Diet {
+  Name String @id @db.VarChar(255)
+  Type_id Int? @unique
 
-//@@map("messages")
-//}
+  foods Food[]
 
-model GroupFood {
-  id Int @id @default(autoincrement())
-  Food_Id Int
-  Name String @db.VarChar(255)
-
-
-
-  @@map("group_food")
+  @@map("diet")
 }
 
 model Food {
   id Int @id @default(autoincrement())
-  GroupFood_Id Int
+  Name String @db.VarChar(255)
+  Description String @db.Text
+
+  diet Diet @relation(fields: [id], references: [Type_id])
 
   @@map("food")
 }
 
+model Admin {
+  id Int @id @default(autoincrement())
+  userName String @db.VarChar(255)
+  Password String @db.VarChar(255)
 
+  @@map("admin")
+}

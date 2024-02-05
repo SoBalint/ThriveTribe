@@ -23,7 +23,7 @@ export default function Home() {
                         <div className="iconArticle" id="iconArticle"><i className='bx bx-dumbbell'></i></div>
                         <h4>Workouts</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta,
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque portal
                         </p>
                     </div>
                     <div className="mainArt" id="mainArt">
