@@ -27,6 +27,9 @@ function RootLayoutComponent({children}: {
                         <Link className="link" href="/coach">
                             Edző
                         </Link>
+                        <Link className="link" href="/workout">
+                            Edzés
+                        </Link>
                         <Link className="link" href="/diet">
                             Étrend
                         </Link>
