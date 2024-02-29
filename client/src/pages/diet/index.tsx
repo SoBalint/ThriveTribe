@@ -14,7 +14,7 @@ export default function App() {
                 defaultActiveKey="profile"
                 id="fill-tab-example"
                 className="mb-3"
-                fill
+                justify
             >
                 <Tab eventKey="home" title="Home">
                     Tab content for Home

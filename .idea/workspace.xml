@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="terkep kész + a header bekerült">
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Logo.png" afterDir="false" />
+    <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="kezdőlap csúszka, étrend tabok, Edzés fül">
+      <change afterPath="$PROJECT_DIR$/client/public/pictures/edzes1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/pictures/edzes2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/pictures/edzes3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/Image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/chrisheria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/cica.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/user2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +84,11 @@
       <recent name="C:\laragon\www\szakdoga\client\src\pages\coach" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\src\components\tabcomponents" />
       <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\src\components" />
       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\laragon\www\szakdoga\client\src\app" />
-      <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,7 +155,8 @@
       <workItem from="1707840146401" duration="2327000" />
       <workItem from="1708349997898" duration="135000" />
       <workItem from="1708350504524" duration="638000" />
-      <workItem from="1708597798716" duration="209000" />
+      <workItem from="1708597798716" duration="645000" />
+      <workItem from="1709214226253" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -237,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706082710618</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="kezdőlap csúszka, étrend tabok, Edzés fül">
+      <option name="closed" value="true" />
+      <created>1708598063752</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708598063752</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +282,7 @@
     <MESSAGE value="jo" />
     <MESSAGE value="terkep (nincskesz)" />
     <MESSAGE value="terkep kész + a header bekerült" />
-    <option name="LAST_COMMIT_MESSAGE" value="terkep kész + a header bekerült" />
+    <MESSAGE value="kezdőlap csúszka, étrend tabok, Edzés fül" />
+    <option name="LAST_COMMIT_MESSAGE" value="kezdőlap csúszka, étrend tabok, Edzés fül" />
   </component>
 </project>
