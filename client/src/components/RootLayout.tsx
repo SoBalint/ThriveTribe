@@ -36,7 +36,7 @@ function RootLayoutComponent({children}: {
                         <Link className="link" href="/map">
                             Térkép
                         </Link>
-                        <Link className="link" href="#">
+                        <Link className="link" href="/messageboard">
                             Üzenőfal
                         </Link>
                     </ul>
