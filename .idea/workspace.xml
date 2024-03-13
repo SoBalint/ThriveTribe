@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="terkep kész + a header bekerült">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/pictures/Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/map/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/map/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/server/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.16&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/szakdoga/client/src/pages/map&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -70,7 +73,7 @@
     &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\laragon\\www\\szakdoga\\server\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Penge\\WebstormProjects\\szakdoga\\client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -81,6 +84,8 @@
       <recent name="C:\laragon\www\szakdoga\client\src\pages\coach" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\src\components\tabcomponents" />
+      <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\src\components" />
       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\laragon\www\szakdoga\client\src\app" />
       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
@@ -141,6 +146,16 @@
       <workItem from="1706948535256" duration="2910000" />
       <workItem from="1707076161001" duration="256000" />
       <workItem from="1707077143251" duration="179000" />
+      <workItem from="1707156304439" duration="2185000" />
+      <workItem from="1707209647725" duration="2948000" />
+      <workItem from="1707307395529" duration="2863000" />
+      <workItem from="1707310289799" duration="1831000" />
+      <workItem from="1707382302650" duration="2117000" />
+      <workItem from="1707752514214" duration="1646000" />
+      <workItem from="1707840146401" duration="2327000" />
+      <workItem from="1708349997898" duration="135000" />
+      <workItem from="1708350504524" duration="638000" />
+      <workItem from="1708597798716" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

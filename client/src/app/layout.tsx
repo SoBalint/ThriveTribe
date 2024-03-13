@@ -34,7 +34,9 @@ export default function RootLayout({
 
 
         <RootLayoutComponent>
-            {children}
+
+                {children}
+
         </RootLayoutComponent>
 
 
