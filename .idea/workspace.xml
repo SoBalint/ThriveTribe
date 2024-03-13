@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="107221c8-0100-49e3-add3-60ae9a170e6c" name="Changes" comment="terkep kész + a header bekerült">
-      <change afterPath="$PROJECT_DIR$/client/public/pictures/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/pictures/edzes1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/pictures/edzes2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/Image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/chrisheria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/pictures/cica.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RootLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/coach/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/diet/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/server/package.json" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -84,11 +81,11 @@
       <recent name="C:\laragon\www\szakdoga\client\src\pages\coach" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\src\components\tabcomponents" />
       <recent name="C:\Users\Penge\WebstormProjects\szakdoga\client\src\components" />
       <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\public\pictures" />
       <recent name="C:\laragon\www\szakdoga\client\src\app" />
-      <recent name="C:\Users\Szár Máté\WebstormProjects\szakdoga\client\src\pictures" />
     </key>
   </component>
   <component name="RunManager">
@@ -156,6 +153,8 @@
       <workItem from="1708349997898" duration="135000" />
       <workItem from="1708350504524" duration="638000" />
       <workItem from="1708597798716" duration="209000" />
+      <workItem from="1710345940922" duration="687000" />
+      <workItem from="1710349411376" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

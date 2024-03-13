@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import {Container, Row, Image} from "react-bootstrap";
+import {Container, Navbar, Nav, Image, NavDropdown, Form, Button} from "react-bootstrap";
 import Link from "next/link";
 import '../app/globals.css'
 import Head from "next/head";
@@ -16,44 +16,49 @@ function RootLayoutComponent({children}: {
                 <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
                 <title>Thrive Tribe</title>
             </Head>
-            <header>
-                <nav>
-                    <div className="logo">
+            <Navbar expand="lg" className="bg-body-tertiary py-3" style={{ height: "auto"}}>
+                <Container fluid>
+                    <Navbar.Brand href="/" className={"logo"}>
                         <Image alt="Logo" src="/pictures/Logo.png"></Image>
-                        <a className="navbar-brand pb-0" href="/">THRIVE TRIBE</a>
-                    </div>
+                        THRIVE TRIBE
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="navbarScroll"/>
+                    <Navbar.Collapse id="navbarScroll">
+                        <Nav
+                            className="me-auto my-2 my-lg-0"
+                        >
+                            <Link className="nav-link link" href="/coach">
+                                Edző
+                            </Link>
+                            <Link className="nav-link link" href="/workout">
+                                Edzés
+                            </Link>
+                            <Link className="nav-link link" href="/diet">
+                                Étrend
+                            </Link>
+                            <Link className="nav-link link" href="/map">
+                                Térkép
+                            </Link>
+                            <Link className="nav-link link" href="#">
+                                Üzenőfal
+                            </Link>
+                        </Nav>
 
-                    <ul>
-                        <Link className="link" href="/coach">
-                            Edző
+                        <Link href="/login">
+                            <button>
+                                <i className='bx bx-user'></i>
+                            </button>
                         </Link>
-                        <Link className="link" href="/workout">
-                            Edzés
-                        </Link>
-                        <Link className="link" href="/diet">
-                            Étrend
-                        </Link>
-                        <Link className="link" href="/map">
-                            Térkép
-                        </Link>
-                        <Link className="link" href="#">
-                            Üzenőfal
-                        </Link>
-                    </ul>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
 
-                    <Link href="/login">
-                        <button>
-                            <i className='bx bx-user'></i>
-                        </button>
-                    </Link>
-                </nav>
-            </header>
-
-
-            {children}
-
+            <Container fluid className={"p-0 m-0 d-flex justify-content-center"}>
+                {children}
+            </Container>
 
             <footer className="footer">
+                <Container>
                 <div className="top">
                     <div className="logo">
                         <Image alt="Logo" src="/pictures/Logo.png"></Image>
@@ -84,6 +89,7 @@ function RootLayoutComponent({children}: {
                         <a href="#">Cookies</a>
                     </div>
                 </div>
+                </Container>
             </footer>
         </>
     );
