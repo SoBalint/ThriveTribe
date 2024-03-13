@@ -64,7 +64,6 @@ function RootLayoutComponent({children}: {
                         <Image alt="Logo" src="/pictures/Logo.png"></Image>
                         THRIVE TRIBE
                     </div>
-
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="#">Blog</a></li>
