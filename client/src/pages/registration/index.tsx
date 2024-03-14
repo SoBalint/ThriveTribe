@@ -1,6 +1,7 @@
 import { Button, Card, Form, Row } from "react-bootstrap";
 import RootLayoutComponent from "@/components/RootLayout";
 import Link from "next/link";
+import {Checkbox} from "@mui/material";
 
 export default function Index() {
     return(
@@ -35,6 +36,7 @@ export default function Index() {
                             <input type="password" name="password"/>
                             <i className='bx bx-low-vision'></i>
                         </div>
+                        <label>Edző vagy? <Checkbox/></label>
                         <button className="registration">Regisztráció</button>
                         <div className="divider">
                             <div className="line"></div>

@@ -3,8 +3,11 @@ import React from 'react';
 import {Container, Navbar, Nav, Image, NavDropdown, Form, Button} from "react-bootstrap";
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.css"
+import { TbUserOff } from "react-icons/tb";
+import { TbUser } from "react-icons/tb";
 import '../app/globals.css'
 import Head from "next/head";
+import signedIn from "@/components/Login/Login"
 
 function RootLayoutComponent({children}: {
     children: React.ReactNode
@@ -13,7 +16,7 @@ function RootLayoutComponent({children}: {
 
         <>
             <Head>
-                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+                {/*<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>*/}
                 <link rel="icon" type="image/png" href="/pictures/Logo.png"/>
                 <title>Thrive Tribe</title>
             </Head>
@@ -44,11 +47,15 @@ function RootLayoutComponent({children}: {
                                 Üzenőfal
                             </Link>
                         </Nav>
-
                         <Link href="/login">
                             <button>
-                                <i className='bx bx-user'></i>
+                                {/*<i className='bx bx-user-x'></i>*/}
+                                <TbUserOff/>
+                                {/*<TbUser/>*/}
                             </button>
+
+                            {!signedIn && <button><TbUser/></button>}
+                            {<button><TbUserOff/></button> && signedIn}
                         </Link>
                     </Navbar.Collapse>
                 </Container>
