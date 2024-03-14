@@ -21,7 +21,6 @@ export default function Index() {
                     <label className="userName">Felhasználónév</label>
                     <div className="custom-inputLogin">
                         <input type="username" name="username" autoComplete="off"/>
-
                     </div>
                     <label className="password">Jelszó</label>
                     <div className="custom-inputLogin">

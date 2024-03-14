@@ -1,6 +1,4 @@
 import RootLayoutComponent from "@/components/RootLayout";
-import "bootstrap/dist/css/bootstrap.css"
-import "../../app/globals.css";
 import {Tabs, Tab} from "react-bootstrap"
 import React from "react";
 

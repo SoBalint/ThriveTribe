@@ -2,6 +2,7 @@
 import React from 'react';
 import {Container, Navbar, Nav, Image, NavDropdown, Form, Button} from "react-bootstrap";
 import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.css"
 import '../app/globals.css'
 import Head from "next/head";
 
@@ -39,7 +40,7 @@ function RootLayoutComponent({children}: {
                             <Link className="nav-link link" href="/map">
                                 Térkép
                             </Link>
-                            <Link className="nav-link link" href="#">
+                            <Link className="nav-link link" href="/messageboard">
                                 Üzenőfal
                             </Link>
                         </Nav>

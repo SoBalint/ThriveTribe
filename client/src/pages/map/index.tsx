@@ -1,4 +1,3 @@
-import '@/app/globals.css'
 import RootLayoutComponent from "@/components/RootLayout";
 import dynamic from "next/dynamic";
 
