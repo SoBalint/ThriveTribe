@@ -9,12 +9,12 @@ function Map() {
         iconSize: [38,38]
     })
     return (
-        <MapContainer center={[47.4979, 19.0402]} zoom={13} scrollWheelZoom={false}>
+        <MapContainer center={[47.233333, 16.633333]} zoom={13} scrollWheelZoom={false}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[47.4979, 19.0402]} icon={costumeIcon}>
+            <Marker position={[47.233333, 16.633333]} icon={costumeIcon}>
                 <Popup>
                     A pretty CSS3 popup. <br /> Easily customizable.
                 </Popup>

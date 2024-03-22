@@ -5,6 +5,7 @@ import './globals.css'
 import RootLayoutComponent from "@/components/RootLayout";
 import React from "react";
 import Link from "next/link";
+import {CookiesProvider} from "next-client-cookies/server";
 
 
 const inter = Inter({subsets: ['latin']})
@@ -22,6 +23,7 @@ export default function RootLayout({
     const linkStyle = {
         color: "#1E1E1E"
     };
+
     return (
         <html lang="en">
         <head>
@@ -31,16 +33,11 @@ export default function RootLayout({
         </head>
         <body>
 
-
-
         <RootLayoutComponent>
 
-                {children}
+            {children}
 
         </RootLayoutComponent>
-
-
-
 
         </body>
         </html>

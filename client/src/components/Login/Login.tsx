@@ -1,13 +1,15 @@
+"use client"
 import React, {useEffect} from "react";
 import Link from "next/link";
 import Notiflix from "notiflix";
+import {useCookies} from "next-client-cookies";
 
 
 const Login = () => {
+    const cookies = useCookies();
     let signedIn = false;
     const handleLogin = async (event) => {
         event.preventDefault();
-
 
         const UserName = event.target.elements.UserName.value;
         const Password = event.target.elements.Password.value;
@@ -23,7 +25,9 @@ const Login = () => {
 
             if (response.ok) {
                 // Sikeres belépés, folytasd a megfelelő intézkedésekkel, például átirányítással
+                const user = await response.json();
                 Notiflix.Notify.success("Sikeres bejelentkezés!", () => {
+                    cookies.set("user",JSON.stringify(user));
                     location.href = "/"
 
                 }, {

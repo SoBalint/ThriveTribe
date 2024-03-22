@@ -11,11 +11,12 @@ import Image2 from '/public/pictures/Image2.jpg'
 export default function Home() {
     let docTitle = document.title;
     window.addEventListener("blur", () => {
-        document.title = "Come back nig";
+        document.title = "A változás rád vár!";
     })
     window.addEventListener("focus", () => {
         document.title = docTitle;
     })
+
     return (
 
         <Row className={"w-100"}>
@@ -48,7 +49,7 @@ export default function Home() {
             <Container fluid>
 
                 <Col className="articles px-2" id="articles">
-                    <h5>Cikkek</h5>
+                    <h5>Edzéstervek</h5>
                     <Row className={"articlesMain"}>
                         <Col xs={12} md={6} lg={3} className={"mt-3"}>
                             <div className="mainArt" id="mainArt">
