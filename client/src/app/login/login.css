@@ -6,7 +6,7 @@ box-sizing: border-box;
 font-family: "Poppins", sans-serif;
 }
 
-.Row{           //body
+.Row{
     display: flex;
     justify-content: center;
     align-items: center;

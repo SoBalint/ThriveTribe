@@ -1,49 +1,19 @@
-'use client'
-import Link from "next/link";
 import {Container, Col, Row, Image} from "react-bootstrap";
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '/public/pictures/Image1.jpg';
-import chrisheria from '/public/pictures/chrisheria.jpg'
-import Image2 from '/public/pictures/Image2.jpg'
-
+import HomeCarousel from "@/components/Home/HomeCarousel";
 
 export default function Home() {
-    let docTitle = document.title;
-    window.addEventListener("blur", () => {
-        document.title = "A változás rád vár!";
-    })
-    window.addEventListener("focus", () => {
-        document.title = docTitle;
-    })
-
+    // let docTitle = document.title;
+    // window.addEventListener("blur", () => {
+    //     document.title = "Come back nig";
+    // })
+    // window.addEventListener("focus", () => {
+    //     document.title = docTitle;
+    // })
     return (
 
         <Row className={"w-100"}>
-            <Carousel className={"px-0 mx-0"}>
-                <Carousel.Item>
-                    <img src="/pictures/edzes1.jpg" alt={"MainKép"} className="w-100"/>
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src="/pictures/edzes2.jpg" alt={"MainKép"} className="w-100"/>
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src="/pictures/Image2.jpg" alt={"MainKép"} className="w-100"/>
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-
+            <HomeCarousel />
 
             <div className="separatorLine"></div>
             <Container fluid>

@@ -1,17 +1,19 @@
-"use client"
+"use client";
 import React from 'react';
-import {Container, Image, Nav, Navbar} from "react-bootstrap";
+import {Container, Nav, Navbar} from "react-bootstrap";
+import Image from "next/image";
 import Link from "next/link";
-import {TbUser, TbUserOff} from "react-icons/tb";
+import {TbUserOff} from "react-icons/tb";
 import {useCookies} from "next-client-cookies";
 
-function NavBar() {
+function TopNavbar() {
     const cookies = useCookies();
+
     return (
         <Navbar expand="lg" className="bg-body-tertiary py-3" style={{ height: "auto"}}>
             <Container fluid>
                 <Navbar.Brand href="/" className={"logo"}>
-                    <Image alt="Logo" src="/pictures/Logo.png"></Image>
+                    <Image alt="Logo" src="/pictures/Logo.png" width={50} height={50}></Image>
                     THRIVE TRIBE
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll"/>
@@ -43,7 +45,8 @@ function NavBar() {
                             {/*<TbUser/>*/}
                         </button>
 
-
+                        {/*{!signedIn && <button><TbUser/></button>}
+                            {<button><TbUserOff/></button> && signedIn}*/}
                     </Link>
                 </Navbar.Collapse>
             </Container>
@@ -51,4 +54,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default TopNavbar;

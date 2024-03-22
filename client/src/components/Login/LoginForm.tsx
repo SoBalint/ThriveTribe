@@ -1,19 +1,22 @@
-"use client"
-import React, {useEffect} from "react";
+"use client";
+import React from 'react';
 import Link from "next/link";
-import Notiflix from "notiflix";
 import {useCookies} from "next-client-cookies";
+import Notiflix from "notiflix";
 
-
-const Login = () => {
+function LoginForm() {
     const cookies = useCookies();
-    let signedIn = false;
+
     const handleLogin = async (event) => {
         event.preventDefault();
 
         const UserName = event.target.elements.UserName.value;
         const Password = event.target.elements.Password.value;
-
+alert();
+        cookies.set("user",JSON.stringify({
+            email: "asd@asd.hu",
+            roles: []
+        }));
         try {
             const response = await fetch("http://localhost/thrivetribe-server/public/api/users/login", {
                 method: "POST",
@@ -34,10 +37,8 @@ const Login = () => {
                     timeout: 2000
                 })
                 console.log("Sikeres belépés!");
-                signedIn = true;
             } else {
                 // Sikertelen belépés, kezeld a hibát
-                signedIn = false
                 let message = response.messages;
                 if (Array.isArray(message)) {
                     message = message[0]
@@ -53,8 +54,7 @@ const Login = () => {
     };
 
     return(
-        <div className="testLogin">
-            <div className="containerLogin">
+            <div className="containerLogin my-5">
                 <h1>Belépés</h1>
                 <form onSubmit={handleLogin}>
                     <label className="userName">Felhasználónév</label>
@@ -87,8 +87,7 @@ const Login = () => {
                     </Link>
                 </form>
             </div>
-        </div>
-    )
+    );
 }
 
-export default Login
+export default LoginForm;
