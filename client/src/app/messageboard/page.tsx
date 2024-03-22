@@ -1,10 +1,10 @@
 import React from 'react';
-import Datagrid from "@/components/DataGrid/Datagrid";
+import DatagriDUsers from "@/components/DataGrid/DatagriDUsers";
 
 function Page() {
     return (
         <>
-            <Datagrid/>
+            <DatagriDUsers/>
         </>
     );
 }

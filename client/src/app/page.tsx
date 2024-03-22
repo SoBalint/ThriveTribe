@@ -2,6 +2,7 @@ import {Container, Col, Row, Image} from "react-bootstrap";
 import React from "react";
 import HomeCarousel from "@/components/Home/HomeCarousel";
 
+
 export default function Home() {
     // let docTitle = document.title;
     // window.addEventListener("blur", () => {
