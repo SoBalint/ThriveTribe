@@ -21,7 +21,7 @@ function TopNavbar() {
                     <Nav
                         className="me-auto my-2 my-lg-0"
                     >
-                        {JSON.stringify(cookies.get("user") || "")}
+                        {/*{JSON.stringify(cookies.get("user") || "")}*/}
                         <Link className="nav-link link" href="/coach">
                             Edző
                         </Link>
@@ -36,6 +36,9 @@ function TopNavbar() {
                         </Link>
                         <Link className="nav-link link" href="/messageboard">
                             Üzenőfal
+                        </Link>
+                        <Link className="nav-link link" href="/admin">
+                            Admin
                         </Link>
                     </Nav>
                     <Link href="/login">

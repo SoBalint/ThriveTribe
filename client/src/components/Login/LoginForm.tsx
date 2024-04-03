@@ -12,7 +12,7 @@ function LoginForm() {
 
         const UserName = event.target.elements.UserName.value;
         const Password = event.target.elements.Password.value;
-alert();
+
         cookies.set("user",JSON.stringify({
             email: "asd@asd.hu",
             roles: []
@@ -71,7 +71,6 @@ alert();
                             type="password"
                             name="Password"
                         />
-                        <i className='bx bx-low-vision'></i>
                     </div>
                     <div className="loginLinks">
                         <a href="#">Elelejtetted a jelszavad?</a>
