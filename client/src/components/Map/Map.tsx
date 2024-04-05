@@ -7,9 +7,9 @@ import 'leaflet/dist/leaflet.css'
 function Map() {
     const costumeIcon = new Icon({
         //iconUrl: "https://cdn-icons-png.flaticon.com/128/7976/7976479.png",
-        iconUrl: require('../Map/sulyzo.svg'),
-        iconRetinaUrl: require('../Map/sulyzo.svg'),
-        iconSize: [38,38]
+        //iconUrl: require('../Map/sulyzo.svg'),
+        //iconRetinaUrl: require('../Map/sulyzo.svg'),
+        // iconSize: [38,38]
     })
     return (
         <MapContainer center={[47.233333, 16.633333]} zoom={13} scrollWheelZoom={false}>
