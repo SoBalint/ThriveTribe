@@ -32,6 +32,15 @@ function LoginForm() {
                 Notiflix.Notify.success("Sikeres bejelentkezés!", () => {
                     cookies.set("user",JSON.stringify(user));
                     location.href = "/"
+                    if(user.roles[0].id == 1){
+                        location.href = "/admin"
+                    }
+                    if(user.roles[0].id == 4){
+                        location.href = "/edzo"
+                    }
+                    if(user.roles[0].id == 5){
+                        location.href = "/"
+                    }
 
                 }, {
                     timeout: 2000

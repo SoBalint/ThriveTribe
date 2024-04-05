@@ -527,7 +527,7 @@ footer .bottom .links a{
 
 .leaflet-container {
     height: 60vh;
-    width: 100vh;
+    width: 100%;
 }
 
 .kozepreMap {
@@ -535,6 +535,10 @@ footer .bottom .links a{
     width: 100vh;
     margin: 0 auto;
     position: relative;
+}
+
+.GymPhotoForMap {
+    width: 100%;
 }
 
 
