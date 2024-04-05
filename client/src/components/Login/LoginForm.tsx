@@ -93,6 +93,9 @@ function LoginForm() {
                     <Link href="/registration">
                         <button className="registration">Regisztráció</button>
                     </Link>
+                    <Link href="/datamodification">
+                        <button className="registration">TesztAdatmódosításfül</button>
+                    </Link>
                 </form>
             </div>
     );
