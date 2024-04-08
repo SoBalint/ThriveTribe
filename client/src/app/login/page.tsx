@@ -1,4 +1,5 @@
 import React from 'react';
+import "./login.css";
 import LoginForm from "@/components/Login/LoginForm";
 
 function Page() {

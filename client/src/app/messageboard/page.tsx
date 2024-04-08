@@ -4,8 +4,11 @@ import {Container} from "react-bootstrap";
 
 function Page() {
     return (
-        <div>
-        </div>
+        <>
+            <Container>
+                üzenőfal
+            </Container>
+        </>
     );
 }
 
