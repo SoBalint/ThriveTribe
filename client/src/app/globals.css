@@ -647,3 +647,22 @@ footer .bottom .links a{
     margin: 0 auto;
     position: relative;
 }
+#map {
+    position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.leaflet-container {
+    height: 60vh;
+    width: 100%;
+}
+
+.kozepreMap {
+    height: 60vh;
+    width: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.GymPhotoForMap {
+    width: 100%;
+}

@@ -20,8 +20,8 @@ function Page() {
                     </Col>
                 </Row>
                 <br/>
-            <Row>
-                <Col>
+                <Row>
+                    <Col>
                         <div className="search">
                             <TextField
                                 id="outlined-basic"
@@ -32,9 +32,9 @@ function Page() {
                         </div>
                         <br/>
                         <MapComponent/>
-                    <br/>
-                </Col>
-            </Row>
+                        <br/>
+                    </Col>
+                </Row>
             </Container>
         </React.Fragment>
 

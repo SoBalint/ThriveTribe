@@ -10,7 +10,7 @@ function TopNavbar() {
     const cookies = useCookies();
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary py-3" style={{ height: "auto"}}>
+        <Navbar expand="lg" className="py-3" style={{ height: "auto"}}>
             <Container fluid>
                 <Navbar.Brand href="/" className={"logo"}>
                     <Image alt="Logo" src="/pictures/Logo.png" width={50} height={50}></Image>

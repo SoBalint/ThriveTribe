@@ -1,0 +1,22 @@
+.szin{
+background-color: #F5F5F1;
+
+}
+
+.szin2{
+    background-color: #B18C7A;
+
+}
+
+
+.nav-link.active {
+    color: #617E71 !important;
+    background-color: #F5F5F1 !important;
+}
+
+
+.nav-link {
+    color: black !important;
+    background-color: #F5F5F1 !important;
+}
+
