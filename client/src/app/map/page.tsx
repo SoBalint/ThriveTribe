@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import TextField from "@mui/material/TextField";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import "@/app/globals.css"
+import {borderRadius} from "@mui/system";
 
 function Page() {
     const MapComponent = dynamic(
@@ -26,11 +27,12 @@ function Page() {
                                 id="outlined-basic"
                                 variant="outlined"
                                 fullWidth
-                                label="Search"
+                                label="Keresés"
                             />
                         </div>
                         <br/>
                         <MapComponent/>
+                    <br/>
                 </Col>
             </Row>
             </Container>

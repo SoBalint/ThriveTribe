@@ -40,6 +40,12 @@ function TopNavbar() {
                         <Link className="nav-link link" href="/admin">
                             Admin
                         </Link>
+                        <Link className="nav-link link" href="/trainingcreate">
+                            TestTrainingCreate
+                        </Link>
+                        <Link className="nav-link link" href="/coachcreate">
+                            TestCoachCreate
+                        </Link>
                     </Nav>
                     <Link href="/login">
                         <button>

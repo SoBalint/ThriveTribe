@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
+/*@formatter:on*/
 
 html{
     scroll-behavior: smooth;
@@ -541,44 +542,6 @@ footer .bottom .links a{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #app{
     border-radius:3px;
     border: 1px solid #e5e5e5;
@@ -619,10 +582,6 @@ ul.inline{
         }
     }
 }
-
-
-
-
 
 .kissebkep {
     width: 50%;
