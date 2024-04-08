@@ -25,7 +25,7 @@ function TopNavbar() {
                         <Link className="nav-link link" href="/coach">
                             Edző
                         </Link>
-                        <Link className="nav-link link" href="/training">
+                        <Link className="nav-link link" href="/workout">
                             Edzés
                         </Link>
                         <Link className="nav-link link" href="/diet">
@@ -39,9 +39,6 @@ function TopNavbar() {
                         </Link>
                         <Link className="nav-link link" href="/admin">
                             Admin
-                        </Link>
-                        <Link className="nav-link link" href="/detailedtraining">
-                            Training Detailed
                         </Link>
                     </Nav>
                     <Link href="/login">
