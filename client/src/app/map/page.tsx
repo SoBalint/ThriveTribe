@@ -1,9 +1,17 @@
+
 import React from 'react';
 import dynamic from "next/dynamic";
 import TextField from "@mui/material/TextField";
-import {Col, Container, Image, Row} from "react-bootstrap";
+import {Button, Col, Container, Image, Row} from "react-bootstrap";
 import "@/app/globals.css"
-import {borderRadius} from "@mui/system";
+import axios from "axios";
+
+type keres = [
+  id: number,
+  name: string,
+  latitude: number,
+  longitude: number
+];
 
 function Page() {
     const MapComponent = dynamic(
@@ -16,23 +24,13 @@ function Page() {
             <Container>
                 <Row>
                     <Col>
-                        <Image className="GymPhotoForMap" src="/pictures/GymPhotoForMap.png" title="GymPhotoForMap" alt="GymPhotoForMap"/>
+                        <Image className="GymPhotoForMap" src="/pictures/GymPhotoForMap.png" title="Térképi kép" alt="Térképi kép"/>
                     </Col>
                 </Row>
                 <br/>
                 <Row>
                     <Col>
-                        <div className="search">
-                            <TextField
-                                id="outlined-basic"
-                                variant="outlined"
-                                fullWidth
-                                label="Keresés"
-                            />
-                        </div>
-                        <br/>
                         <MapComponent/>
-                        <br/>
                     </Col>
                 </Row>
             </Container>

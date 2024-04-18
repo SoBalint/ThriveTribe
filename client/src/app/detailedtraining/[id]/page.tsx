@@ -2,11 +2,12 @@ import React from 'react';
 import {Container} from "react-bootstrap";
 import DetailedTrainingComponent from "@/components/TrainingDetailed/TrainingDetailedComponent";
 
-function Page() {
+function Page({ params }: { params: { id: number }}) {
+    const id = params.id;
     return (
         <>
             <React.Fragment>
-                <DetailedTrainingComponent/>
+                <DetailedTrainingComponent id={id}/>
             </React.Fragment>
         </>
     );

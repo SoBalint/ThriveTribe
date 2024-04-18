@@ -1,10 +1,10 @@
 import React from 'react';
-import Registration from "@/components/Registration/Registration";
+import RegistrationComponent from "@/components/Registration/RegistrationComponent";
 
 function Page() {
     return (
         <React.Fragment>
-            <Registration/>
+            <RegistrationComponent/>
         </React.Fragment>
     );
 }
