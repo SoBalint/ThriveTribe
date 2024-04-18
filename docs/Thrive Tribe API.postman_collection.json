@@ -1,0 +1,1718 @@
+{
+	"info": {
+		"_postman_id": "d501b9b3-c531-4e1c-95d5-1dfed50514cb",
+		"name": "Thrive Tribe API",
+		"description": "Leírás",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29685900"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "getUsers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users"
+							]
+						},
+						"description": "Az összes felhasználó lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getUserId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users/getUser/31",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users",
+								"getUser",
+								"31"
+							]
+						},
+						"description": "A megadott azonosítójú felhasználó lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getUseWithPass",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users/getUserWithPass/admin1/admin1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users",
+								"getUserWithPass",
+								"admin1",
+								"admin1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserName\": \"Teszt\",\r\n    \"Password\": \"Teszt\",\r\n    \"Email\": \"teszt@gmail.com\",\r\n    \"FirstName\": \"teszt\",\r\n    \"LastName\": \"teszt\",\r\n    \"roles\": [4]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users",
+								"create"
+							]
+						},
+						"description": "Felhasználó létrehozása"
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "UserName",
+									"value": "admin1",
+									"type": "text"
+								},
+								{
+									"key": "Password",
+									"value": "admin1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users",
+								"login"
+							]
+						},
+						"description": "Bejelentkezés."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserName\": \"user1\",\r\n    \"FirstName\": \"Elek\",\r\n    \"LastName\": \"Teszt\",\r\n    \"Password\": \"user1\",\r\n    \"Email\": \"user1@gmail.com\",\r\n    \"roles\": [4]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users/update/65",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users",
+								"update",
+								"65"
+							]
+						},
+						"description": "A megadott azonosítójú felhasználó adatainak frissítése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/users/delete/65",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"users",
+								"delete",
+								"65"
+							]
+						},
+						"description": "A megadott azonosítójú felhasználó törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "A felhasználókkal kapcsolatos API hívások."
+		},
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "getRoles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/roles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"roles"
+							]
+						},
+						"description": "Az összes felhasználói jog lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneRole",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/roles/getRole/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"roles",
+								"getRole",
+								"4"
+							]
+						},
+						"description": "Egy adott azonosítójú felhasználói jog lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "createRole",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Name",
+									"value": "Teszt",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/roles/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"roles",
+								"create"
+							]
+						},
+						"description": "Felhasználói jog létrehozása."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Name",
+									"value": "Teszt2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/roles/update/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"roles",
+								"update",
+								"13"
+							]
+						},
+						"description": "Felhasználói jog szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteRole",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/roles/delete/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"roles",
+								"delete",
+								"13"
+							]
+						},
+						"description": "Felhasználói jog törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "A jogokkal kapcsolatos API hívások."
+		},
+		{
+			"name": "UserRole",
+			"item": [
+				{
+					"name": "getUserRoles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/userRoles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"userRoles"
+							]
+						},
+						"description": "A felhasználók és a felhasználói jogok kapcsolatainak megjelenítése."
+					},
+					"response": []
+				}
+			],
+			"description": "A felhasználó és a felhasználói jog kapcsoló táblájána API hívása."
+		},
+		{
+			"name": "Training",
+			"item": [
+				{
+					"name": "getTraining",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/trainings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"trainings"
+							]
+						},
+						"description": "Az összes edzésterv lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneTraining",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/trainings/getTraining/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"trainings",
+								"getTraining",
+								"1"
+							]
+						},
+						"description": "Az adott azonosítójú edzésterv lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getTopFour",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/trainings/getTopFour",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"trainings",
+								"getTopFour"
+							]
+						},
+						"description": "A legjobb 4 edzésterv lekérése csökkenő sorba."
+					},
+					"response": []
+				},
+				{
+					"name": "createTraining",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Teszt\",\r\n    \"Text\": \"Teszt\",\r\n    \"Type\": \"Teszt\",\r\n    \"Author\": \"Teszt\",\r\n    \"UploadeDate\": \"2024-02-01\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/trainings/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"trainings",
+								"create"
+							]
+						},
+						"description": "Edzésterv létrehozása."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Name",
+									"value": "Teszt",
+									"type": "text"
+								},
+								{
+									"key": "Text",
+									"value": "abcde",
+									"type": "text"
+								},
+								{
+									"key": "Type",
+									"value": "TesztPs",
+									"type": "text"
+								},
+								{
+									"key": "UploadeDate",
+									"value": "2024.03.13",
+									"type": "text"
+								},
+								{
+									"key": "Author",
+									"value": "Teszt",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/trainings/update/18",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"trainings",
+								"update",
+								"18"
+							]
+						},
+						"description": "A megadott azonosítójú edzésterv szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTraining",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/trainings/delete/18",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"trainings",
+								"delete",
+								"18"
+							]
+						},
+						"description": "A megadott azonosítójú edzésterv törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "Edzéstervek API hívásai."
+		},
+		{
+			"name": "Message",
+			"item": [
+				{
+					"name": "getMessage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/messages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"messages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Text",
+									"value": "Teszt1",
+									"type": "text"
+								},
+								{
+									"key": "ShareDate",
+									"value": "1000.02.01",
+									"type": "text"
+								},
+								{
+									"key": "UserId",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/messages/update/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"messages",
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteMessage",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/messages/delete/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"messages",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createMessage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Text",
+									"value": "Teszt",
+									"type": "text"
+								},
+								{
+									"key": "ShareDate",
+									"value": "2024.04.15",
+									"type": "text"
+								},
+								{
+									"key": "UserId",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/messages/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"messages",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Location",
+			"item": [
+				{
+					"name": "getLocation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/locations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"locations"
+							]
+						},
+						"description": "Az összes koordináta lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneLocation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/locations/getLocation/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"locations",
+								"getLocation",
+								"1"
+							]
+						},
+						"description": "A megadott azonosítójú koordináta lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "createLocation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "latitude",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/locations/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"locations",
+								"create"
+							]
+						},
+						"description": "Koordináta létrehozása."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "latitude",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/locations/update/39",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"locations",
+								"update",
+								"39"
+							]
+						},
+						"description": "A megadott azonosítójú koordináta szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteLocation",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/locations/delete/39",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"locations",
+								"delete",
+								"39"
+							]
+						},
+						"description": "A megadott azonosítójú koordináta törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "A koordináták API hívásai."
+		},
+		{
+			"name": "Map",
+			"item": [
+				{
+					"name": "getMaps",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/maps",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"maps"
+							]
+						},
+						"description": "Az összes térképadat lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneMap",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/maps/getMap/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"maps",
+								"getMap",
+								"7"
+							]
+						},
+						"description": "A megadott azonosítójú térképadat lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "createMaps",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Address",
+									"value": "Szombathely, Szűrcsapó u. 23, 9700",
+									"type": "text"
+								},
+								{
+									"key": "GymName",
+									"value": "Iron Samson Gym",
+									"type": "text"
+								},
+								{
+									"key": "OpenHour",
+									"value": "hétfő: 8:00–21:00\nkedd: 8:00–21:00\nszerda: 8:00–21:00\ncsütörtök: 8:00–21:00\npéntek: 8:00–21:00\nszombat: Zárva\nvasárnap: Zárva",
+									"type": "text"
+								},
+								{
+									"key": "CordinationId",
+									"value": "39",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/maps/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"maps",
+								"create"
+							]
+						},
+						"description": "Térképadat létrehozás."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Address",
+									"value": "abcd",
+									"type": "text"
+								},
+								{
+									"key": "GymName",
+									"value": "abcd",
+									"type": "text"
+								},
+								{
+									"key": "OpenHour",
+									"value": "abcd",
+									"type": "text"
+								},
+								{
+									"key": "CordinationId",
+									"value": "39",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/maps/update/41",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"maps",
+								"update",
+								"41"
+							]
+						},
+						"description": "A megadott azonosítójú térképadat szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteMaps",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/maps/delete/41",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"maps",
+								"delete",
+								"41"
+							]
+						},
+						"description": "A megadott azonosítójú térképadat törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "A térkép API hívásai."
+		},
+		{
+			"name": "FoodRole",
+			"item": [
+				{
+					"name": "getFoodRole",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/foodRoles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"foodRoles"
+							]
+						},
+						"description": "Az étrendek és az ételek kapcsolatának lekérdezése."
+					},
+					"response": []
+				}
+			],
+			"description": "Az étrendek és az ételek kapcsolótáblájának API hívása."
+		},
+		{
+			"name": "Food",
+			"item": [
+				{
+					"name": "getFood",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/foods",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"foods"
+							]
+						},
+						"description": "Az összes étel lekérdezése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneFood",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/foods/getFood/50",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"foods",
+								"getFood",
+								"50"
+							]
+						},
+						"description": "A megadott azonosítójú étel lekérdezése."
+					},
+					"response": []
+				},
+				{
+					"name": "createFood",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Teszt\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/foods/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"foods",
+								"create"
+							]
+						},
+						"description": "Étel létrehozása."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"TesztUpdate\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/foods/update/112",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"foods",
+								"update",
+								"112"
+							]
+						},
+						"description": "A megadott azonosítójú étel szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteFood",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/foods/delete/112",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"foods",
+								"delete",
+								"112"
+							]
+						},
+						"description": "A megadott azonosítójú étel törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "Az ételek API hívásai."
+		},
+		{
+			"name": "Diet",
+			"item": [
+				{
+					"name": "getDiet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/diets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"diets"
+							]
+						},
+						"description": "Az öszzes étrend lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneDiet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/diets/getDiet/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"diets",
+								"getDiet",
+								"10"
+							]
+						},
+						"description": "A megadott azonosítójú étrend lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "createDiet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Teszt2\",\r\n    \"Description\": \"Teszt2\",\r\n    \"foods\": [1, 2]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/diets/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"diets",
+								"create"
+							]
+						},
+						"description": "Étrend létrehozása."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Name",
+									"value": "abcdef",
+									"type": "text"
+								},
+								{
+									"key": "Description",
+									"value": "abcdef",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/diets/update/22",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"diets",
+								"update",
+								"22"
+							]
+						},
+						"description": "A megadott azonosítójú étrendek szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteDiet",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/diets/delete/22",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"diets",
+								"delete",
+								"22"
+							]
+						},
+						"description": "A megadott azonosítójú étrendek törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "Az étrendek API hívásai."
+		},
+		{
+			"name": "CoachExperience",
+			"item": [
+				{
+					"name": "getCoachExperience",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/coachexperiences",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"coachexperiences"
+							]
+						},
+						"description": "Az összes edző profil lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneCoach",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/coachexperiences/getCoach/37",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"coachexperiences",
+								"getCoach",
+								"37"
+							]
+						},
+						"description": "A megadott azonosítójú edző profil lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "createCoachExpereince",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Skill",
+									"value": "abcda",
+									"type": "text"
+								},
+								{
+									"key": "School",
+									"value": "abcda",
+									"type": "text"
+								},
+								{
+									"key": "Experience",
+									"value": "abcda",
+									"type": "text"
+								},
+								{
+									"key": "users",
+									"value": "64",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/coachexperiences/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"coachexperiences",
+								"create"
+							]
+						},
+						"description": "Edző profil létrehozása."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Skill",
+									"value": "ab",
+									"type": "text"
+								},
+								{
+									"key": "School",
+									"value": "ab",
+									"type": "text"
+								},
+								{
+									"key": "Experience",
+									"value": "ab",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/coachexperiences/update/43",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"coachexperiences",
+								"update",
+								"43"
+							]
+						},
+						"description": "A megadott azonosítójú edző profil szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteCoachExperience",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/coachexperiences/delete/43",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"coachexperiences",
+								"delete",
+								"43"
+							]
+						},
+						"description": "A megadott azonosítójú edző profil törlése."
+					},
+					"response": []
+				}
+			],
+			"description": "Az edző profil API hívásai."
+		},
+		{
+			"name": "CityCentrum",
+			"item": [
+				{
+					"name": "getCityCentrum",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/citycentrums",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"citycentrums"
+							]
+						},
+						"description": "Az összes városközpont lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "createCityCentrum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "PostCode",
+									"value": "9710",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "Teszt",
+									"type": "text"
+								},
+								{
+									"key": "latitude",
+									"value": "1.2",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "1.2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/citycentrums/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"citycentrums",
+								"create"
+							]
+						},
+						"description": "Városközpont felvétele."
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "PostCode",
+									"value": "1111",
+									"type": "text"
+								},
+								{
+									"key": "Name",
+									"value": "Teszt111",
+									"type": "text"
+								},
+								{
+									"key": "latitude",
+									"value": "0.2",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "0.2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/citycentrums/update/18",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"citycentrums",
+								"update",
+								"18"
+							]
+						},
+						"description": "A megadott azonosítójú városközpont szerkesztése."
+					},
+					"response": []
+				},
+				{
+					"name": "deleteCityCentrum",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/citycentrums/delete/18",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"citycentrums",
+								"delete",
+								"18"
+							]
+						},
+						"description": "A megadott azonosítójú városközpont törlése."
+					},
+					"response": []
+				},
+				{
+					"name": "getOneCityCentrum",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/citycentrums/getCT/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"citycentrums",
+								"getCT",
+								"6"
+							]
+						},
+						"description": "A megadott azonosítójú városközpont lekérése."
+					},
+					"response": []
+				},
+				{
+					"name": "searchCT",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/thrivetribe-server/public/api/citycentrums/search/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"thrivetribe-server",
+								"public",
+								"api",
+								"citycentrums",
+								"search",
+								"6"
+							]
+						},
+						"description": "Keresés a városközpontokban azonosító alapján."
+					},
+					"response": []
+				}
+			],
+			"description": "Városközpontok API hívásai."
+		}
+	]
+}
