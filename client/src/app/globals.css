@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
-
 
 html{
     scroll-behavior: smooth;
-    width: 100%!important;
+    height: 100%;
+    width: 100%
+    !important;
 }
 
 *{
@@ -23,7 +23,7 @@ li{
 }
 
 nav{
-    background-color:   #EFEFEF;
+    background-color:   #F5F5F1;
     position: sticky;
     top: 0;
     padding: 0 85px;
@@ -78,7 +78,7 @@ nav button{
 nav button:hover{
     background-color: #617E71;
     border-color: #617E71;
-    color: #FFFFFF;
+    color: #F5F5F1;
 }
 
 .link {
@@ -147,20 +147,28 @@ li{
     list-style: none;
 }
 
-.articles{
-    margin-bottom: 50px;
+.homeSentences {
+    font-size: 25px;
+    font-weight: 600;
+    color: #F5F5F1;
+    text-shadow: 2px 4px 4px rgba(30, 30, 30, 0.6);
 }
 
-.articles h3{
-    font-size: 40px;
+
+
+.trainingTop {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
-.articles .articlesMain{
-    margin-top: 70px;
+.articlesMain{
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
-.articles .articlesMain .mainArt{
-    background-color: #EFEFEF;
+.articlesMain .mainArt{
+    background-color: #F5F5F1;
     border-radius: 10px;
     padding: 32px;
     border-bottom: 4px solid transparent;
@@ -168,11 +176,11 @@ li{
     transition: all 0.4s ease;
 }
 
-.articles .articlesMain .mainArt:hover{
+.articlesMain .mainArt:hover{
     border-color: #617E71;
 }
 
-.articles .articlesMain .mainArt .iconArticle{
+.articlesMain .mainArt .iconArticle{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,16 +192,16 @@ li{
     box-shadow: 0 0 16px rgba( 0, 0, 0, 0.1);
 }
 
-.articles .articlesMain .mainArt .iconArticle i{
+.articlesMain .mainArt .iconArticle i{
     font-size: 26px;
     color: #1E1E1E;
 }
 
-.articles .articlesMain .mainArt h4{
+.articlesMain .mainArt h4{
     font-size: 18px;
 }
 
-.articles .articlesMain .mainArt p{
+.articlesMain .mainArt p{
     margin-top: 20px;
     font-size: 14px;
     line-height: 22px;
@@ -202,41 +210,74 @@ li{
 
 .testLogin,
 .testRegistration,
-.testDatachange{
-    height: 100vh;
+.testDataModification,
+.testCoachCreate,
+.testTrainCreate{
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 0 0 80px 0;
 }
+
+.coachCont,
+.trainCont{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 .containerLogin,
 .containerRegistration,
-.containerDatachange{
-    width: 446px;
+.containerDataModification,
+.coachCreate {
+    width: 480px;
     padding: 40px 32px;
     border-radius: 8px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px;
+}
+
+.trainCreate {
+    width: auto;
+    padding: 40px 32px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px;
 }
 
 .containerLogin h1,
 .containerRegistration h1,
-.containerDatachange h1{
+.containerDataModification h1,
+.coachCreate h1,
+.trainCreate h1{
     font-size: 1.6rem;
+}
+
+.slider {
+    margin-bottom: 30px;
 }
 
 .containerLogin .divider,
 .containerRegistration .divider,
-.containerDatachange .divider{
+.containerDataModification .divider,
+.coachCreate .divider,
+.homePageRow .divider,
+.titleDivider .divider{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
+
 .containerLogin .divider .line,
 .containerRegistration .divider .line,
-.containerDatachange .divider .line{
+.containerDataModification .divider .line,
+.coachCreate .divider .line,
+.homePageRow .divider .line{
     height: 1px;
     width: 100%;
     background-color: #1E1E1E;
@@ -244,12 +285,25 @@ li{
     margin: 30px 0 16px;
 }
 
+.homePageRow .divider .line,
+.titleDivider .divider .line{
+    height: 1px;
+    width: 75%;
+    background-color: #1E1E1E;
+    opacity: 0.5;
+    margin: 30px 0 30px;
+}
+
 .containerLogin form label,
 .containerLogin form a,
 .containerRegistration form label,
 .containerRegistration form a,
-.containerDatachange form label,
-.containerDatachange form a{
+.containerDataModification form label,
+.containerDataModification form a,
+.coachCreate form label,
+.coachCreate form a,
+.trainCreate form label,
+.trainCreate form a{
     color: #1E1E1E;
     font-size: 14px;
     font-weight: bold;
@@ -260,13 +314,18 @@ li{
 
 .containerLogin form .custom-inputLogin,
 .containerRegistration form .custom-inputRegistration,
-.containerDatachange form .custom-inputDatachange{
+.containerDataModification form .custom-inputDataModification,
+.coachCreate form .custom-inputCreateCoach,
+.trainCreate form .custom-inputTrainCreate{
     position: relative;
 }
 
 .containerLogin form .custom-inputLogin input,
 .containerRegistration form .custom-inputRegistration input,
-.containerDatachange form .custom-inputDatachange input{
+.containerDataModification form .custom-inputDataModification input,
+.coachCreate form .custom-inputCreateCoach input,
+.coachCreate form .custom-inputCreateCoach textarea,
+.trainCreate form .custom-inputTrainCreate input{
     color: #1E1E1E;
     font-size: 16px;
     font-weight: 500;
@@ -280,18 +339,34 @@ li{
     text-indent: 20px;
     margin-top: 6px;
     transition: all 0.3s ease;
-
 }
+
+.trainCreate form .custom-inputTrainCreateDate input {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 500;
+    width: auto;
+    height: 46px;
+    letter-spacing: 0.03rem;
+    border: 1px solid #1E1E1E;
+    background: transparent;
+    outline: none;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 6px;
+    transition: all 0.3s ease;
+}
+
 
 .containerLogin form .custom-inputLogin input:focus,
 .containerRegistration form .custom-inputRegistration input:focus,
-.containerDatachange form .custom-inputDatachange input:focus{
+.containerDataModification form .custom-inputDataModification input:focus{
     border-color: #1E1E1E;
 }
 
 .containerLogin form .custom-inputLogin i,
 .containerRegistration form .custom-inputRegistration i,
-.containerDatachange form .custom-inputDatachange i{
+.containerDataModification form .custom-inputDataModification i{
     position: absolute;
     font-size: 28px;
     right: 10px;
@@ -301,7 +376,7 @@ li{
 
 .containerLogin form .custom-inputLogin input:focus +i,
 .containerRegistration form .custom-inputRegistration input:focus + i,
-.containerDatachange form .custom-inputDatachange input:focus +i{
+.containerDataModification form .custom-inputDataModification input:focus +i{
     color: #617E71;
 }
 
@@ -309,7 +384,9 @@ li{
 .containerLogin form .registration,
 .containerRegistration form .login,
 .containerRegistration form .registration,
-.containerDatachange form .datachangeSave{
+.containerDataModification form .dataChangeSave,
+.coachCreate form .createSaveBtn,
+.trainCreate form .createTrainSave{
     width: 100%;
     margin-top: 30px;
     background: #1E1E1E;
@@ -329,7 +406,9 @@ li{
 .containerLogin form .registration:hover,
 .containerRegistration form .login:hover,
 .containerRegistration form .registration:hover,
-.containerDatachange form .datachangeSave:hover{
+.containerDataModification form .dataChangeSave:hover,
+.coachCreate form .createSaveBtn:hover,
+.trainCreate form .createTrainSave:hover{
     background: #617E71;
 }
 
@@ -348,146 +427,238 @@ li{
     margin-top: 10px;
 }
 
-.Row{
-    display: flex;
+.coachContainer {
+    margin: 50px 0 30px 0;
+}
+
+.coachHeaderText {
+    margin-bottom: 40px;
+}
+
+.personalTrainers {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.coachQuestion {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.trainersText {
+    text-align: center;
+}
+
+.coachCard {
+    background-color: #F5F5F1;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    border-color: #1E1E1E;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    margin: 0 0 50px 0.1%;
+}
+
+.coachImage {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.coachText {
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: seagreen;
-    background-size: cover;
-    background-position: center;
+    align-content: center;
 }
 
-.wrapper{
-    display: block;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 420px;
-    background: purple;
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
-    border: 10px;
-    padding: 30px 40px;
-}
 
-.wrapper h1 {
-    font-size: 36px;
+.coachName {
+    font-size: 33px;
+    font-weight: 700;
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
-.wrapper .input-box {
-    width: 100%;
-    height: 50%;
-    margin: 30px 0;
-}
-.input-box input {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: white;
-    padding: 20px 45px 20px 20px;
-}
-
-.input-box input::placeholder {
-    color: white;
-}
-
-.input-box i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-
-.wrapper .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-
-.remember-forgot label input {
-    accent-color: white;
-    margin-right: 3px;
-}
-
-.remember-forgot a {
-    color: white;
-    text-decoration: none;
-}
-
-.remember-forgot a:hover {
-    text-decoration: underline;
-}
-
-.wrapper .btn {
-    width: 100%;
-    height: 45px;
-    background: white;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
+.coachTitle {
+    font-size: 17px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
-.wrapper .register-link {
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
+.coachInformation {
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: -30px
 }
 
-.register-link p a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
+.coachContact {
+    border-right: 5px solid #617E71;
+    border-radius: 5px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
 }
 
-.register-link p a:hover {
-    text-decoration: underline;
+.coachSchool,
+.coachSkill,
+.coachExperience{
+    margin-bottom: 2px;
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
+.coachIcons {
+    color: #1E1E1E;
+    font-size: 18px;
 }
 
-.image-container img {
-    display: block;
-    width: 100%;
+.coachIcons:hover {
+    color: #617E71;
+}
+
+.trainingContainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(97, 126, 113, 0.4);
     height: auto;
+    border-radius: 15px;
 }
 
-.overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    color: white;
-    font-weight: bolder;
-    padding: 10px 20px;
-    font-size: 60px;
+.trainingTop {
+}
+
+.trainingMain {
+    font-weight: 500;
+    font-size: 50px;
+    align-content: center;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.trainingName {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trainingTitle {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trainingImage {
+    background-position: center;
+    height: auto;
+    width: 100%;
+    background-color: rgba(97, 126, 113, 0.4);
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.trainDescriptionCol {
+    width: 600px;
+    text-align: center;
+}
+
+.trainingDescription {
+    font-size: 17px;
+    text-align: justify;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.trainingLike,
+.trainingDislike {
+    display: inline-block;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 10px;
+}
+
+.trainingLike:hover,
+.trainingDislike:hover {
+    color: #F5F5F1;
+}
+
+.authDate{
+    text-align: right;
+    display: inline;
+    font-size: 16px;
+}
+
+.createSurName,
+.createFirstName,
+.createAge,
+.createSchool,
+.createSkill,
+.createExperience,
+.createEmail,
+.createPhone{
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    display: block;
+    margin-top: 12px;
+}
+
+.backButton {
+    justify-items: left;
+    margin: 50px 0 10px 50px;
+    font-size: 40px;
+    color: #1E1E1E;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 5px;
+    border: #617E71;
+}
+
+.backButtonDiet {
+    justify-items: left;
+    margin: 10px 0 10px 0;
+    font-size: 40px;
+    color: #1E1E1E;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 5px;
+    border: #617E71;
+}
+.backButtonAdmin {
+    justify-items: left;
+    margin: 50px 0 10px 0;
+    font-size: 40px;
+    color: #1E1E1E;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 5px;
+    border: #617E71;
+}
+
+.backButtonAdminDiet {
+    justify-items: left;
+    margin: 40px 0 0 0;
+    font-size: 40px;
+    color: #1E1E1E;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 5px;
+    border: #617E71;
 }
 
 footer{
-    background-color: #EFEFEF;
+    background-color: #F5F5F1;
     display: flex;
     flex-direction: column;
+    margin-top: auto;
+    width: 100%;
 }
 
 footer .top,
@@ -536,82 +707,195 @@ footer .bottom .links a{
     margin: 0 auto;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#app{
-    border-radius:3px;
-    border: 1px solid #e5e5e5;
-    margin:15px;
-    background-color:white;
+#map {
+    position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 }
 
-.tab{
-//min-height:50px;
-    width:100%;
-    padding:25px;
-    font-family:sans-serif;
-    color:#444;
+.leaflet-container {
+    height: 60vh;
+    width: 100%;
 }
 
-ul.inline{
-    list-style:none;
-    padding: 0;
-    margin-bottom:0;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
-    li{
-        display:inline-block;
-        margin-left:0;
-        padding:10px;
-        border-bottom:2px solid #eee;
-        transition: all .5s;
-        font-family:sans-serif;
-        font-weight:300;
-        cursor:pointer;
-        color:#aaa;
-        &.selected{
-            border-bottom:2px solid #337ab7;
-            color:#444;
-        }
+.GymPhotoForMap {
+    width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+    .homeSentences {
+        font-size: 40px;
     }
 }
+
+@media screen and (min-width: 992px ) {
+    .homeSentences {
+        align-items: center;
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .homeSentences {
+        font-size: 20px;
+    }
+    .backButton,
+    .backButtonAdmin,
+    .backButtonAdminDiet{
+        margin: 20px 0 10px 0;
+    }
+}
+
+.NavbarContainer {
+    margin: 30px 0 30px 0;
+}
+
+
+
+
+
+.trainingArticlesCont {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.trainingCard {
+    background-color: rgb(97, 126, 113, 0.4);
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    border-color: #1E1E1E;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    margin: 0 0 50px 0.1%;
+}
+
+.topOfTrainingCard {
+    margin-bottom: 10px;
+}
+
+.trainingPicture {
+    width: 65%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+.nameOfTraining {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0 20% 5px;
+}
+
+.authorOfTraining {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 0 5px;
+}
+
+.dateOfTraining {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1E1E1E;
+    opacity: 0.5;
+    margin: 0 0 3px 5px;
+}
+
+.textOfTraining {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 0 5px;
+}
+
+.buttonClick  {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+@media screen and (min-width: 768px) {
+    .nameOfTraining {
+        font-size: 30px;
+        margin: 20px 0 0 5px;
+
+    }
+    .authorOfTraining {
+        font-size: 20px;
+        margin: 10px 0 20px 5px;
+    }
+    .trainingPicture {
+        width: 100%;
+        margin: 10px 0 20px 5px;
+    }
+    .dateOfTraining {
+        font-size: 18px;
+        margin: 16px 0 10px 5px;
+    }
+    .textOfTraining {
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nameOfTraining {
+        font-size: 35px;
+        margin: 10px 0 80px 5px;
+    }
+
+    .authorOfTraining {
+        font-size: 25px;
+        margin: 0 0 0 5px;
+    }
+
+    .trainingPicture {
+        width: 95%;
+        height: 250px;
+        margin: 10px 0 10px 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nameOfTraining {
+        font-size: 23px;
+        margin: 15px 0 18px 5px;
+
+    }
+    .authorOfTraining {
+        font-size: 18px;
+        margin: 10px 0 20px 5px;
+    }
+    .trainingPicture {
+        width: 100%;
+        height: 230px;
+        margin: 10px 0 10px 5px;
+    }
+    .dateOfTraining {
+        font-size: 15px;
+        margin: 10px 0 6px 5px;
+    }
+    .textOfTraining {
+        font-size: 16px;
+    }
+}
+
+
+
+.articleTitle {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.authorName {
+    font-size: 18px;
+}
+
+
+.articleDate {
+    font-size: 14px;
+}
+
+
+
+
+
+
+

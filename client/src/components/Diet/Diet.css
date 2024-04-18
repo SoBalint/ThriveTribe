@@ -1,0 +1,41 @@
+.Diets{
+    background-color: #F5F5F1;
+    border-radius: 14px;
+    border-color: #1E1E1E;
+    margin-bottom: 50px;
+}
+
+.Etrend {
+    font-weight: 500;
+    font-size: 50px;
+    align-content: center;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dietNames {
+    border-color: #1E1E1E;
+}
+
+
+.dietPhotos {
+    margin-bottom: 40px;
+}
+
+.DietTabPhotos {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.nav-link.active {
+    color: #617E71 !important;
+    background-color: #F5F5F1 !important;
+}
+
+
+.nav-link {
+    color: black !important;
+    background-color: #F5F5F1 !important;
+}
+
