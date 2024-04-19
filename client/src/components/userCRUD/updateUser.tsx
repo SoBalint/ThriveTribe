@@ -89,6 +89,8 @@ export default function UpdateUser({
                                     CoachExperienceId: coachE
                                 }).then((res) => {
                                     alert("Sikeres frissítés!");
+                                }).catch((res) => {
+                                    alert("Már van ilyen felhasználónév!");
                                 })
                             } else {}
                         }}>

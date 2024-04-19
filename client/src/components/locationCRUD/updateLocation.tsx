@@ -56,6 +56,8 @@ export default function UpdateLocation({
                                 longitude: Number(form.longitude.value)
                             }).then((res) => {
                                 alert("Sikeres felvitel!");
+                            }).catch((res) => {
+                                alert("Számot adj meg!");
                             })
                         }}>
                             <label>Szélességi fok</label>

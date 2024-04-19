@@ -52,6 +52,8 @@ export default function CreateCityCentrum() {
                                 longitude: Number(form.long.value)
                             }).then((res) => {
                                 alert("Sikeres felvitel!");
+                            }).catch((res) => {
+                                alert("Számot adj meg a fokoknál!");
                             })
                         }}>
                             <label>Irányítószám</label>

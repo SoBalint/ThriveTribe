@@ -118,6 +118,7 @@ function DataModification() {
                                             defaultValue={jsonObj.Height}
                                         />
                                     </div>
+                                    <Link href="/passwordchange">Jelszó módosítás!</Link>
                                     <Button className="dataChangeSave" type="submit">Mentés</Button>
                                 </form>
                             </div>

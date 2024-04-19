@@ -26,6 +26,7 @@ function isValidView(viewname: string, userType: number):boolean {
         { name: "diet"},
         { name: "map"},
         { name: "datamodification"},
+        { name: "passwordchange"}
     ];
     const felhasznaloNezetek : Nezetek[] = [
         { name: "coach"},
@@ -34,6 +35,7 @@ function isValidView(viewname: string, userType: number):boolean {
         { name: "training"},
         { name: "detailedtraining"},
         { name: "datamodification"},
+        { name: "passwordchange"}
     ];
 
 

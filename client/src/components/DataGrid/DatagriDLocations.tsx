@@ -45,6 +45,8 @@ const DatagriDLocations = () => {
                             <Button variant={"danger"} onClick={() => {
                                 fetch(`http://localhost/thrivetribe-server/public/api/locations/delete/${row.id}`, {
                                     method: 'DELETE'
+                                }).then((res) => {
+                                    alert("Sikeres törlés!");
                                 }).then(refreshPage)
                             }}>Törlés</Button>
                         </td>

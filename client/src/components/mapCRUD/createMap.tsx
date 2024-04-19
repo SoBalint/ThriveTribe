@@ -51,6 +51,8 @@ export default function CreateMap() {
                                 CordinationId: form.cordinationid.value
                             }).then((res) => {
                                 alert("Sikeres felvitel!");
+                            }).catch((res) => {
+                                alert("Nincs ilyen koordináta azonosító!");
                             })
                         }}>
                             <label>Cím</label>

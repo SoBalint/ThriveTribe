@@ -73,6 +73,8 @@ export default function CreateUser() {
                                     roles: szam
                                 }).then((res) => {
                                     alert("Sikeres felvitel!");
+                                }).catch((res) => {
+                                    alert("Már van ilyen felhasználónév!");
                                 })
                             }else{}
                         }}>

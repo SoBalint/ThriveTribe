@@ -38,6 +38,8 @@ function RegistrationComponent() {
                         roles: szam
                     }).then((res) => {
                         alert("Sikeres felvitel!");
+                    }).catch((res) => {
+                        alert("Már van ilyen felhasználónév!");
                     })
                 }}>
                     <label>Vezetéknév</label>
