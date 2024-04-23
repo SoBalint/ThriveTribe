@@ -119,10 +119,7 @@ function Map() {
                             lat = res.data[0].latitude;
                             long = res.data[0].longitude;
                             setSearchLocation([lat, long])
-                            //console.log("érték:" + form.kereso.value);
-                            //alert("Van ilyen település!"+ res.data[0].latitude + " " +res.data[0].longitude);
                         })
-                        //console.log(lat + " " + long);
                     }}>
                         <TextField
                             id="outlined-basic"

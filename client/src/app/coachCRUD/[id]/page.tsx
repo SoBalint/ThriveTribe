@@ -1,7 +1,6 @@
 
 import axios from "axios";
 import {use} from "react";
-import UpdateDiet from "@/components/dietCRUD/updateDiet";
 import UpdateCoach from "@/components/coachCRUD/updateCoach";
 
 async function getOne(id: number) {

@@ -4,8 +4,6 @@ import {Button, Col, Container} from "react-bootstrap";
 import {useCookies} from "next-client-cookies";
 import isValidView from "@/components/Access_Component/access";
 import axios from "axios";
-import {Util} from "leaflet";
-import lastId = Util.lastId;
 import Link from "next/link";
 
 function CoachC() {

@@ -1,7 +1,4 @@
 
-import React from 'react';
-import DietTabs from "@/components/Diet/DietTabs";
-
 function isValidView(viewname: string, userType: number):boolean {
     //viewname - az oldal neve, mely megnyitásra került - a név azonos kell, hogy legyen az alábbi tömbökben szereplőkkel
     //userType - átadásra került a belogolt felhasználó azonositója

@@ -1,6 +1,5 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { DataGrid } from '@mui/x-data-grid'
 import {Button, Table} from "react-bootstrap";
 
 const columns = [
@@ -24,7 +23,6 @@ const DatagriDMaps = () => {
             .then((data) => data.json())
             .then((data) => setTableData(data))
     }, [])
-    console.log(tableData)
 
     return (
         <div style={{ height: 500, width: '100%' }}>

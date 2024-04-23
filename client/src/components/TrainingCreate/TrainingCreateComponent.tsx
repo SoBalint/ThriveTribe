@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, {useRef} from "react";
 import {Editor} from "@tinymce/tinymce-react";
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Button, Col, Container} from "react-bootstrap";
 import {useCookies} from "next-client-cookies";
 import isValidView from "@/components/Access_Component/access";
 import axios from "axios";

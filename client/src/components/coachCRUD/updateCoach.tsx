@@ -1,6 +1,5 @@
 "use client"
 import axios from "axios";
-import {FormControlLabel, FormGroup, Switch} from "@mui/material";
 import {Button, Col, Container} from "react-bootstrap";
 import React from "react";
 import {useCookies} from "next-client-cookies";

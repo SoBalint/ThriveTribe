@@ -3,7 +3,6 @@
 import {Col, Container, Row} from "react-bootstrap";
 import React, {useEffect, useState} from "react";
 import { BiLike, BiDislike } from "react-icons/bi";
-import { FaRegBookmark } from "react-icons/fa6";
 import {useCookies} from "next-client-cookies";
 import isValidView from "@/components/Access_Component/access";
 import Link from "next/link";
@@ -30,7 +29,6 @@ function DetailedTrainingComponent({ id }: { id: number } ) {
                 method: "GET"
             });
             const jsonData = await data.json();
-            //console.log(jsonData)
             setResultTD(jsonData);
         };
 
@@ -91,7 +89,6 @@ function DetailedTrainingComponent({ id }: { id: number } ) {
                                         {resultTD.Like}<BiLike className="trainingLike" onClick={(event) => {
                                             //let D4te: Date = new Date(resultTD.Uploadedate);
                                             plus = resultTD.Like + 1;
-                                            console.log(resultTD.UploadeDate)
                                             axios.put(`http://localhost/thrivetribe-server/public/api/trainings/update/${id}`, {
                                             Name: resultTD.Name,
                                             Text: resultTD.Text,

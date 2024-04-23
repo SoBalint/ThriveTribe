@@ -1,10 +1,8 @@
 
 import React from 'react';
 import dynamic from "next/dynamic";
-import TextField from "@mui/material/TextField";
-import {Button, Col, Container, Image, Row} from "react-bootstrap";
+import {Col, Container, Image, Row} from "react-bootstrap";
 import "@/app/globals.css"
-import axios from "axios";
 
 type keres = [
   id: number,

@@ -1,6 +1,5 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import { DataGrid } from '@mui/x-data-grid'
 import {Button, Row, Table} from "react-bootstrap";
 
 const columns = [
@@ -30,7 +29,6 @@ const DatagriDTrainings = () => {
 
     }, [])
 
-    console.log(tableData)
 
     return (
         <Row>

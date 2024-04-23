@@ -1,8 +1,8 @@
 "use client"
 import {FormControlLabel, FormGroup, Switch} from "@mui/material";
 import Link from "next/link";
-import React, {ChangeEvent, useState} from "react";
-import {Button, Col, Form} from "react-bootstrap";
+import React, {useState} from "react";
+import {Button, Col} from "react-bootstrap";
 import axios from "axios";
 
 function RegistrationComponent() {

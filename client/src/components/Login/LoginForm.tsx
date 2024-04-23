@@ -9,20 +9,13 @@ function LoginForm() {
     const cookies = useCookies();
 
     const queryString = window.location.href;
-    //console.log("ez van  VANNNNNNNN");
-    //console.log( queryString);
-    //const urlParams = new URLSearchParams(queryString);
-    //console.log(queryString.search("?logout"));
 
     if(queryString.search("logout") == -1){
-        //console.log("LOGOUT NINNCSCSCS");
 
     }else{
-        //console.log(cookies.get('user'));
         if(cookies.get('user') != undefined){
             cookies.remove('user');
             location.href = "/login";
-            //console.log("LOGOUT VANNNNNNNN");
         }
     }
     const handleLogout = async (event) => {
@@ -55,39 +48,17 @@ function LoginForm() {
                     location.href = "/admin";
                 }
                 if(user.roles[0].id == 5){
-                    //console.log(user);
                     location.href = "/coachcreate";
                 }
                 if(user.roles[0].id == 4){
                     location.href = "/";
                 }
-
-                {/*Notiflix.Notify.success("Sikeres bejelentkezés!", () => {
-                    cookies.set("user",JSON.stringify(user));
-                    location.href = "/"
-                    if(user.roles[0].id == 1){
-                        location.href = "/admin";
-
-                    }
-                    if(user.roles[0].id == 4){
-                        location.href = "/edzo"
-                    }
-                    if(user.roles[0].id == 5){
-                        location.href = "/"
-                    }
-
-
-                }, {
-                    timeout: 2000
-                })*/}
-                console.log("Sikeres belépés!");
             } else {
                 // Sikertelen belépés, kezeld a hibát
                 let message = response.messages;
                 if (Array.isArray(message)) {
                     message = message[0]
                 }
-                console.log(message)
                 Notiflix.Notify.failure(message as string)
                 console.error("Sikertelen belépés!");
 

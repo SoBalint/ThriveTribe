@@ -6,7 +6,6 @@ import Link from "next/link";
 import {TbUserOff} from "react-icons/tb";
 import {TbUser} from "react-icons/tb";
 import {useCookies} from "next-client-cookies";
-import handleLogout from "@/components/Login/Logout";
 
 function TopNavbar() {
     const cookies = useCookies();
@@ -20,11 +19,10 @@ function TopNavbar() {
 
         }else if (jsonObj.roles[0].id == 1 ){
         }else{
-            //tabok = "ez NEM egy admin";
         }
     }
     }else{
-        //console.log("nincs belépve felhasználó");
+
     }
 
 
@@ -40,10 +38,6 @@ function TopNavbar() {
                     <Nav
                         className="me-auto my-2 my-lg-0"
                     >
-                        {/*JSON.stringify(cookies.get("user") || "")*/}
-
-                        {/*cookies.get("user")*/}
-
                         {
                             logged_in_user == 1 ?
                                 <>
@@ -99,17 +93,17 @@ function TopNavbar() {
                             <>
                                 <Link href="/login?logout">
                                 <button>
-                                    {/*<i className='bx bx-user-x'></i>*/}
+
                                     <TbUser/>
-                                    {/*<TbUser/>*/}
+
                                 </button>
                             </Link>
                             </> : <>
                                 <Link href="/login">
                                 <button>
-                                    {/*<i className='bx bx-user-x'></i>*/}
+
                                     <TbUserOff/>
-                                    {/*<TbUser/>*/}
+
                                 </button>
                             </Link>
                             </>

@@ -1,13 +1,11 @@
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import React from "react";
-import Image from "next/image"
-import {Container, Nav, Navbar} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import TopNavbar from "@/components/Navigation/TopNavbar";
 import "bootstrap/dist/css/bootstrap.css"
 import './globals.css'
 import {CookiesProvider} from "next-client-cookies/server";
-import {usePathname} from "next/navigation";
 import FooterComponent from "@/components/footer/FooterComponent";
 
 

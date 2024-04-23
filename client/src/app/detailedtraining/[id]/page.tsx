@@ -1,5 +1,4 @@
 import React from 'react';
-import {Container} from "react-bootstrap";
 import DetailedTrainingComponent from "@/components/TrainingDetailed/TrainingDetailedComponent";
 
 function Page({ params }: { params: { id: number }}) {

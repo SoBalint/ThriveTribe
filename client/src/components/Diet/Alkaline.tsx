@@ -1,6 +1,6 @@
 "use client"
 import React, {useEffect, useState} from "react";
-import {Col, Row, Tab, Tabs} from "react-bootstrap";
+import {Tab, Tabs} from "react-bootstrap";
 
 type diet = {
     Description: string,

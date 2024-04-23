@@ -1,6 +1,5 @@
 import DataModification from "@/components/DataModification/DataModification";
-import React, {use} from 'react';
-import axios from "axios";
+import React from 'react';
 
 function Page() {
     return(

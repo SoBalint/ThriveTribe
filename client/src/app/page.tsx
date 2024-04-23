@@ -1,4 +1,4 @@
-import {Container, Col, Row} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import React from "react";
 import HomeCarousel from "@/components/Home/HomeCarousel";
 import TopTraining from "@/components/toptraining/TopTraining";

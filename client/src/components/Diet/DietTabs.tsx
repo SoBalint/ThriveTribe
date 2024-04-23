@@ -1,6 +1,6 @@
 "use client"
-import React, {useEffect, useState} from 'react';
-import {Container, Tab, Tabs, Row, Col, Image, Button} from "react-bootstrap";
+import React from 'react';
+import {Container, Tab, Tabs, Row, Col, Image} from "react-bootstrap";
 import './Diet.css'
 import {useCookies} from "next-client-cookies";
 import isValidView from "@/components/Access_Component/access";
@@ -89,11 +89,6 @@ function DietTabs() {
 
                         >
 
-                            {/*1. lépés lekérni a diet táblát*/}
-                            {/*2. lépés for ciklusba az összes diet*/}
-                            {/*3. lépés a for cikluson belül lekérni az adott diétához tartozó foodokat*/}
-                            {/*4. adatok kiirása*/}
-                            {/**/}
                             <Tab className="dietNames" eventKey="alkaline" title="Alkaline">
                                 <Image src="/pictures/AlkalineFigma.png" alt={"Alkaline"} title={"Alkaline"} className="DietTabPhotos"/>
                                 <Alkaline/>

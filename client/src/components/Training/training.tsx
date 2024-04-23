@@ -1,6 +1,6 @@
 "use client"
 import React, {useEffect, useState} from 'react';
-import {Container, Row, Col, Image, Button} from "react-bootstrap";
+import {Container, Row, Col, Image} from "react-bootstrap";
 import './training.css'
 import {useCookies} from "next-client-cookies";
 import isValidView from "@/components/Access_Component/access";
@@ -84,29 +84,6 @@ function Training() {
                                 </Col>
                             </Row>
                         </Row>
-
-                                {/*    <Row className="trainingCard">
-                                    <Row className="topOfTrainingCard">
-                                        <Col>
-                                            <Col lg={12} md={12} xd={12} className="">
-                                                <h3 className="nameOfTraining">{valueT.Name}</h3>
-                                                <h5 className="authorOfTraining">{valueT.Author}</h5>
-                                            </Col>
-                                        </Col>
-                                        <Col lg={8} md={12} xs={12}>
-                                            <Image src="/pictures/training.jpg" className="trainingPicture"
-                                                   alt="Training Image"/>
-                                        </Col>
-
-                                    </Row>
-                                    <Row>
-                                        <Col>
-                                            <h5 className="dateOfTraining">{valueT.UploadeDate}</h5>
-                                            <Button className="trainingNext" href={`/detailedtraining/${valueT.id}`}>Olvasd
-                                                el</Button>
-                                        </Col>
-                                    </Row>
-                                </Row>*/}
                                 <Row className={"articlesMain"} >
                                     {resultT.map((valueT) => {
                                         return (
